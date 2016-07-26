@@ -9,21 +9,22 @@ $menlo:                 Menlo;
 
 $font-family-base: $open-sans-sans-serif;
 
+// web font version
 $font-families: (
-   // base
-   'headings':          $open-sans-sans-serif,
-   // components
-   'code':              $menlo,
-   'caption':           $merriweather-serif,
-   'image-gallery':     $open-sans,
-   'post-header-cover': $merriweather-serif,
-   'post-meta':         $open-sans-sans-serif,
-   'post-content':      $merriweather-serif,
-   'post-excerpt-link': $open-sans-sans-serif,
-   'highlight':         $menlo,
-   // layout
-   'sidebar':           $open-sans-sans-serif
-);
+    // base
+   'headings':          $noto-sans-kr,
+    // components
+   'code':              $nanum-gothic-coding,
+   'caption':           $noto-sans-kr,
+   'image-gallery':     $noto-sans-kr,
+   'post-header-cover': $noto-sans-kr,
+   'post-meta':         $noto-sans-kr,
+   'post-content':      $noto-sans-kr,
+   'post-excerpt-link': $noto-sans-kr,
+   'highlight':         $nanum-gothic-coding,
+    // layout
+   'sidebar':           $noto-sans-kr
+ );
 
 // equal to 15px
 $font-size-base:      1.6rem;
