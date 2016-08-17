@@ -14,6 +14,13 @@
     </url>
     
     <url>
+        <loc>http://lattecom.xyz/all-tags/</loc>
+        <lastmod>2016-07-26T11:27:10.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
         <loc>http://lattecom.xyz/all-archives/</loc>
         <lastmod>2016-07-26T11:27:10.000Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -22,13 +29,6 @@
     
     <url>
         <loc>http://lattecom.xyz/all-categories/</loc>
-        <lastmod>2016-07-26T11:27:10.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    <url>
-        <loc>http://lattecom.xyz/all-tags/</loc>
         <lastmod>2016-07-26T11:27:10.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
