@@ -93,27 +93,6 @@
     </url>
 
     <url>
-        <loc>http://lattecom.xyz/tags/error/</loc>
-        <lastmod>2016-07-26T11:27:10.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://lattecom.xyz/tags/ios/</loc>
-        <lastmod>2016-07-26T11:27:10.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://lattecom.xyz/tags/xcode/</loc>
-        <lastmod>2016-07-26T11:27:10.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>http://lattecom.xyz/tags/swift/</loc>
         <lastmod>2016-07-26T11:27:10.000Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -200,6 +179,27 @@
     <url>
         <loc>http://lattecom.xyz/tags/legacy-java/</loc>
         <lastmod>2016-07-26T11:27:10.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://lattecom.xyz/tags/error/</loc>
+        <lastmod>2016-08-17T01:34:41.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://lattecom.xyz/tags/ios/</loc>
+        <lastmod>2016-08-17T01:34:41.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://lattecom.xyz/tags/xcode/</loc>
+        <lastmod>2016-08-17T01:34:41.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>

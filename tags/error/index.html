@@ -33,10 +33,7 @@
     
     
     <!--STYLES-->
-    <link rel="stylesheet" href="/assets/css/font-awesome.css">
-    <link rel="stylesheet" href="/assets/css/jquery.fancybox.css">
-    <link rel="stylesheet" href="/assets/css/jquery.fancybox-thumbs.css">
-    <link rel="stylesheet" href="/assets/css/tranquilpeak.css">
+    <link rel="stylesheet" href="/assets/css/style-qdouzplpgf6wrjbamx38o1csvqynzzkagf1cpzog4zjrgxn7anjcab4wsgsb.min.css">
     <!--STYLES END-->
     
     <script>
@@ -63,9 +60,9 @@
 
 <header id="header" data-behavior="1">
     <i id="btn-open-sidebar" class="fa fa-lg fa-bars"></i>
-    <h1 class="header-title">
+    <div class="header-title">
         <a class="header-title-link" href="/ ">LatteCom&#39;s Library</a>
-    </h1>
+    </div>
     
         
             <a  class="header-right-picture "
@@ -207,7 +204,7 @@
                 <h1 class="postShorten-title" itemprop="headline">
                     
                         <a class="link-unstyled" href="/2016/05/19/processing-symbol-files/">
-                            Processing symbol files 경고(?)
+                            Processing symbol files 경고
                         </a>
                     
                 </h1>
@@ -274,23 +271,23 @@
         
             <h4 id="about-card-name">LatteCom</h4>
         
-            <h5 id="about-card-bio"><p>author.bio</p>
-</h5>
+            <div id="about-card-bio"><p>author.bio</p>
+</div>
         
         
-            <h5 id="about-card-job">
+            <div id="about-card-job">
                 <i class="fa fa-briefcase"></i>
                 <br/>
                 <p>author.job</p>
 
-            </h5>
+            </div>
         
         
-            <h5 id="about-card-location">
+            <div id="about-card-location">
                 <i class="fa fa-map-marker"></i>
                 <br/>
                 Ansan
-            </h5>
+            </div>
         
     </div>
 </div>
@@ -317,17 +314,18 @@
                 <div class="media">
                     
                     <div class="media-body">
-                        <a class="link-unstyled" href="http://lattecom.xyz/2016/02/15/hexo-init/">
-                            <h3 class="media-heading">정적 블로그 프레임워크 Hexo</h3>
+                        <a class="link-unstyled" href="http://lattecom.xyz/2015/12/18/express-generator/">
+                            <h3 class="media-heading">express 모듈로 nodejs app 자동 생성하기</h3>
                         </a>
                         <span class="media-meta">
                             <span class="media-date text-small">
                                 
-                                    Feb 15, 2016
+                                    Dec 18, 2015
                                 
                             </span>
                         </span>
-                        <div class="media-content hide-xs font-merryweather"><p>블로그를 시작하려고 다양한 블로그 서비스들을 알아보고 있었습니다.<br>흔하게 많은 사용자들이 쓰는 ‘네이버 블로그’, ‘티스토리’, ‘워드프레스 닷컴’ 등의 서비스형 블로그를 우선적으로 찾아보았고, ‘워드프레스’, ‘텍스트큐브’ 등 설치형 블로그에 대해서도 알아보았습니다. 두 가지 모두 각각 장단점이 있습니다.<br></div>
+                        <div class="media-content hide-xs font-merryweather"><p>nodejs를 공부하던 중 책에서 다음과 같은 명령어로 app을 자동 생성하는 부분을 보았습니다.</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ express --session --ejs --css stylus myapp</div></pre></td></tr></table></figure></div>
                     </div>
                     <div style="clear:both;"></div>
                     <hr>
@@ -355,18 +353,17 @@
                 <div class="media">
                     
                     <div class="media-body">
-                        <a class="link-unstyled" href="http://lattecom.xyz/2015/12/18/express-generator/">
-                            <h3 class="media-heading">express 모듈로 nodejs app 자동 생성하기</h3>
+                        <a class="link-unstyled" href="http://lattecom.xyz/2016/02/15/hexo-init/">
+                            <h3 class="media-heading">정적 블로그 프레임워크 Hexo</h3>
                         </a>
                         <span class="media-meta">
                             <span class="media-date text-small">
                                 
-                                    Dec 18, 2015
+                                    Feb 15, 2016
                                 
                             </span>
                         </span>
-                        <div class="media-content hide-xs font-merryweather"><p>nodejs를 공부하던 중 책에서 다음과 같은 명령어로 app을 자동 생성하는 부분을 보았습니다.</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ express --session --ejs --css stylus myapp</div></pre></td></tr></table></figure></div>
+                        <div class="media-content hide-xs font-merryweather"><p>블로그를 시작하려고 다양한 블로그 서비스들을 알아보고 있었습니다.<br>흔하게 많은 사용자들이 쓰는 ‘네이버 블로그’, ‘티스토리’, ‘워드프레스 닷컴’ 등의 서비스형 블로그를 우선적으로 찾아보았고, ‘워드프레스’, ‘텍스트큐브’ 등 설치형 블로그에 대해서도 알아보았습니다. 두 가지 모두 각각 장단점이 있습니다.<br></div>
                     </div>
                     <div style="clear:both;"></div>
                     <hr>
@@ -420,7 +417,7 @@
                     
                     <div class="media-body">
                         <a class="link-unstyled" href="http://lattecom.xyz/2016/05/19/processing-symbol-files/">
-                            <h3 class="media-heading">Processing symbol files 경고(?)</h3>
+                            <h3 class="media-heading">Processing symbol files 경고</h3>
                         </a>
                         <span class="media-meta">
                             <span class="media-date text-small">
@@ -462,104 +459,6 @@
                     <hr>
                 </div>
                 
-                <div class="media">
-                    
-                    <div class="media-body">
-                        <a class="link-unstyled" href="http://lattecom.xyz/2016/06/15/reference-link-design/">
-                            <h3 class="media-heading">참고 링크 ver.디자인</h3>
-                        </a>
-                        <span class="media-meta">
-                            <span class="media-date text-small">
-                                
-                                    Jun 15, 2016
-                                
-                            </span>
-                        </span>
-                        <div class="media-content hide-xs font-merryweather"><ul>
-<li>필요할 때 참고할 만한 사이트 링크를 기록해두는 포스트입니다.</li>
-<li>지속적으로 갱신되는 포스트입니다.</li>
-<li>디자인과 관련된 사이트만 기록합니다.</li>
-</ul></div>
-                    </div>
-                    <div style="clear:both;"></div>
-                    <hr>
-                </div>
-                
-                <div class="media">
-                    
-                    <div class="media-body">
-                        <a class="link-unstyled" href="http://lattecom.xyz/2016/06/28/hexo-blog-github-pages/">
-                            <h3 class="media-heading">Github pages와 Hexo를 이용하여 블로그 만들기</h3>
-                        </a>
-                        <span class="media-meta">
-                            <span class="media-date text-small">
-                                
-                                    Jun 28, 2016
-                                
-                            </span>
-                        </span>
-                        <div class="media-content hide-xs font-merryweather"><p><a href="/2016/02/15/hexo-init/">지난번 포스트</a>에서 Hexo라는 정적블로그 프레임워크에 대해 간략하게 소개했습니다.</p>
-<p>이번엔 hexo와 github의 부가기능인 github-pages를 이용하여 별도의 서버를 두지 않고 github의 repository에 블로그 파일을 올려 블로그를 게시하는 방법에 대해 이야기해보겠습니다.</p></div>
-                    </div>
-                    <div style="clear:both;"></div>
-                    <hr>
-                </div>
-                
-                <div class="media">
-                    
-                    <div class="media-left">
-                        <a class="link-unstyled" href="http://lattecom.xyz/2016/07/02/mabinogi-setting/">
-                            <img class="media-image" src="http://lattecom.xyz/2016/07/02/mabinogi-setting/mabinogi_icon.png" width="90" height="90"/>
-                        </a>
-                    </div>
-                    
-                    <div class="media-body">
-                        <a class="link-unstyled" href="http://lattecom.xyz/2016/07/02/mabinogi-setting/">
-                            <h3 class="media-heading">마비노기 단축키, 펫 순서 설정 복원하기</h3>
-                        </a>
-                        <span class="media-meta">
-                            <span class="media-date text-small">
-                                
-                                    Jul 2, 2016
-                                
-                            </span>
-                        </span>
-                        <div class="media-content hide-xs font-merryweather"><p>컴퓨터를 바꾸거나 PC방 등 다른 컴퓨터에서 마비노기를 하게 되면 기존에 설정해뒀던 단축키 셋팅이나 펫, 파트너 순서 등이 초기화 되버립니다. 특히 피씨방 같은 경우엔 자리도 매번 바뀌고 로컬 파일들이 초기화 되기때문에 매번 다시 설정해줘야해서 불편합니다.</p></div>
-                    </div>
-                    <div style="clear:both;"></div>
-                    <hr>
-                </div>
-                
-                <div class="media">
-                    
-                    <div class="media-left">
-                        <a class="link-unstyled" href="http://lattecom.xyz/2016/07/08/r-java-setting-in-mac/">
-                            <img class="media-image" src="http://lattecom.xyz/2016/07/08/r-java-setting-in-mac/RStudio-Ball.jpg" width="90" height="90"/>
-                        </a>
-                    </div>
-                    
-                    <div class="media-body">
-                        <a class="link-unstyled" href="http://lattecom.xyz/2016/07/08/r-java-setting-in-mac/">
-                            <h3 class="media-heading">맥에서 R(R Studio) Java 환경변수 설정하기</h3>
-                        </a>
-                        <span class="media-meta">
-                            <span class="media-date text-small">
-                                
-                                    Jul 8, 2016
-                                
-                            </span>
-                        </span>
-                        <div class="media-content hide-xs font-merryweather"><p>macOS에서 R Studio로 통계 패키지를 사용하려는데 두 가지 문제가 있었습니다.</p>
-<ul>
-<li>R 시스템 환경변수 설정</li>
-<li>맥에서 java 버전</li>
-</ul>
-<p>위의 두 가지였습니다.<br>R에서 ‘rJava’등의 java에 dependency가 있는 패키지를 사용하려면 R의 시스템 환경변수 ‘JAVA_HOME’, ‘Java libarary path’ 두 가지를 정확하게 설정해줘야합니다.</p></div>
-                    </div>
-                    <div style="clear:both;"></div>
-                    <hr>
-                </div>
-                
             </div>
         </div>
         <div class="modal-footer">
@@ -575,10 +474,7 @@
         
 <div id="cover" style="background-image:url('/assets/images/cover.jpg');"></div>
         <!--SCRIPTS-->
-<script src="/assets/js/jquery.js"></script>
-<script src="/assets/js/jquery.fancybox.js"></script>
-<script src="/assets/js/jquery.fancybox-thumbs.js"></script>
-<script src="/assets/js/tranquilpeak.js"></script>
+<script src="/assets/js/script-ztqt6dfimk3ozcuypwbybi9wqghdqtviheqktmxos8knn35rtvqwfpqbfgna.min.js"></script>
 <!--SCRIPTS END-->
 
 
