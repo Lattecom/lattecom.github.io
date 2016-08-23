@@ -2,22 +2,22 @@
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
     <sitemap>
-        <loc>http://lattecom.xyz/post-sitemap.xml</loc>
+        <loc>http://blog.lattecom.xyz/post-sitemap.xml</loc>
         <lastmod>2016-08-17T01:34:41.000Z</lastmod>
     </sitemap>
 
     <sitemap>
-        <loc>http://lattecom.xyz/page-sitemap.xml</loc>
+        <loc>http://blog.lattecom.xyz/page-sitemap.xml</loc>
         <lastmod>2016-07-26T11:27:10.000Z</lastmod>
     </sitemap>
 
     <sitemap>
-        <loc>http://lattecom.xyz/category-sitemap.xml</loc>
+        <loc>http://blog.lattecom.xyz/category-sitemap.xml</loc>
         <lastmod>2016-07-26T11:27:10.000Z</lastmod>
     </sitemap>
 
     <sitemap>
-        <loc>http://lattecom.xyz/tag-sitemap.xml</loc>
+        <loc>http://blog.lattecom.xyz/tag-sitemap.xml</loc>
         <lastmod>2016-07-26T11:27:10.000Z</lastmod>
     </sitemap>
 

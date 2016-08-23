@@ -4,9 +4,9 @@
   <subtitle>Note</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://lattecom.xyz/"/>
+  <link href="http://blog.lattecom.xyz/"/>
   <updated>2016-07-26T11:27:10.000Z</updated>
-  <id>http://lattecom.xyz/</id>
+  <id>http://blog.lattecom.xyz/</id>
   
   <author>
     <name>LatteCom</name>
@@ -17,8 +17,8 @@
   
   <entry>
     <title>맥에서 R(R Studio) Java 환경변수 설정하기</title>
-    <link href="http://lattecom.xyz/2016/07/08/r-java-setting-in-mac/"/>
-    <id>http://lattecom.xyz/2016/07/08/r-java-setting-in-mac/</id>
+    <link href="http://blog.lattecom.xyz/2016/07/08/r-java-setting-in-mac/"/>
+    <id>http://blog.lattecom.xyz/2016/07/08/r-java-setting-in-mac/</id>
     <published>2016-07-08T09:20:11.000Z</published>
     <updated>2016-07-26T11:27:10.000Z</updated>
     
@@ -47,27 +47,27 @@
     
     </summary>
     
-      <category term="Dev" scheme="http://lattecom.xyz/categories/dev/"/>
+      <category term="Dev" scheme="http://blog.lattecom.xyz/categories/dev/"/>
     
-      <category term="R" scheme="http://lattecom.xyz/categories/dev/r/"/>
+      <category term="R" scheme="http://blog.lattecom.xyz/categories/dev/r/"/>
     
     
-      <category term="r" scheme="http://lattecom.xyz/tags/r/"/>
+      <category term="r" scheme="http://blog.lattecom.xyz/tags/r/"/>
     
-      <category term="r studio" scheme="http://lattecom.xyz/tags/r-studio/"/>
+      <category term="r studio" scheme="http://blog.lattecom.xyz/tags/r-studio/"/>
     
-      <category term="macOS" scheme="http://lattecom.xyz/tags/macos/"/>
+      <category term="macOS" scheme="http://blog.lattecom.xyz/tags/macos/"/>
     
-      <category term="java_home" scheme="http://lattecom.xyz/tags/java-home/"/>
+      <category term="java_home" scheme="http://blog.lattecom.xyz/tags/java-home/"/>
     
-      <category term="legacy java" scheme="http://lattecom.xyz/tags/legacy-java/"/>
+      <category term="legacy java" scheme="http://blog.lattecom.xyz/tags/legacy-java/"/>
     
   </entry>
   
   <entry>
     <title>마비노기 단축키, 펫 순서 설정 복원하기</title>
-    <link href="http://lattecom.xyz/2016/07/02/mabinogi-setting/"/>
-    <id>http://lattecom.xyz/2016/07/02/mabinogi-setting/</id>
+    <link href="http://blog.lattecom.xyz/2016/07/02/mabinogi-setting/"/>
+    <id>http://blog.lattecom.xyz/2016/07/02/mabinogi-setting/</id>
     <published>2016-07-02T09:49:54.000Z</published>
     <updated>2016-07-26T11:27:10.000Z</updated>
     
@@ -89,21 +89,21 @@
     
     </summary>
     
-      <category term="Game" scheme="http://lattecom.xyz/categories/game/"/>
+      <category term="Game" scheme="http://blog.lattecom.xyz/categories/game/"/>
     
-      <category term="Mabinogi" scheme="http://lattecom.xyz/categories/game/mabinogi/"/>
+      <category term="Mabinogi" scheme="http://blog.lattecom.xyz/categories/game/mabinogi/"/>
     
     
-      <category term="mabinogi" scheme="http://lattecom.xyz/tags/mabinogi/"/>
+      <category term="mabinogi" scheme="http://blog.lattecom.xyz/tags/mabinogi/"/>
     
-      <category term="복원" scheme="http://lattecom.xyz/tags/%EB%B3%B5%EC%9B%90/"/>
+      <category term="복원" scheme="http://blog.lattecom.xyz/tags/%EB%B3%B5%EC%9B%90/"/>
     
   </entry>
   
   <entry>
     <title>Github pages와 Hexo를 이용하여 블로그 만들기</title>
-    <link href="http://lattecom.xyz/2016/06/28/hexo-blog-github-pages/"/>
-    <id>http://lattecom.xyz/2016/06/28/hexo-blog-github-pages/</id>
+    <link href="http://blog.lattecom.xyz/2016/06/28/hexo-blog-github-pages/"/>
+    <id>http://blog.lattecom.xyz/2016/06/28/hexo-blog-github-pages/</id>
     <published>2016-06-28T07:38:05.000Z</published>
     <updated>2016-07-26T11:27:10.000Z</updated>
     
@@ -153,23 +153,23 @@
     
     </summary>
     
-      <category term="Blog" scheme="http://lattecom.xyz/categories/blog/"/>
+      <category term="Blog" scheme="http://blog.lattecom.xyz/categories/blog/"/>
     
-      <category term="Hexo" scheme="http://lattecom.xyz/categories/blog/hexo/"/>
+      <category term="Hexo" scheme="http://blog.lattecom.xyz/categories/blog/hexo/"/>
     
     
-      <category term="hexo" scheme="http://lattecom.xyz/tags/hexo/"/>
+      <category term="hexo" scheme="http://blog.lattecom.xyz/tags/hexo/"/>
     
-      <category term="blog" scheme="http://lattecom.xyz/tags/blog/"/>
+      <category term="blog" scheme="http://blog.lattecom.xyz/tags/blog/"/>
     
-      <category term="github" scheme="http://lattecom.xyz/tags/github/"/>
+      <category term="github" scheme="http://blog.lattecom.xyz/tags/github/"/>
     
   </entry>
   
   <entry>
     <title>참고 링크 ver.디자인</title>
-    <link href="http://lattecom.xyz/2016/06/15/reference-link-design/"/>
-    <id>http://lattecom.xyz/2016/06/15/reference-link-design/</id>
+    <link href="http://blog.lattecom.xyz/2016/06/15/reference-link-design/"/>
+    <id>http://blog.lattecom.xyz/2016/06/15/reference-link-design/</id>
     <published>2016-06-15T05:41:08.000Z</published>
     <updated>2016-07-26T11:27:10.000Z</updated>
     
@@ -198,23 +198,23 @@
     
     </summary>
     
-      <category term="Reference" scheme="http://lattecom.xyz/categories/reference/"/>
+      <category term="Reference" scheme="http://blog.lattecom.xyz/categories/reference/"/>
     
-      <category term="Design" scheme="http://lattecom.xyz/categories/reference/design/"/>
+      <category term="Design" scheme="http://blog.lattecom.xyz/categories/reference/design/"/>
     
     
-      <category term="디자인" scheme="http://lattecom.xyz/tags/%EB%94%94%EC%9E%90%EC%9D%B8/"/>
+      <category term="디자인" scheme="http://blog.lattecom.xyz/tags/%EB%94%94%EC%9E%90%EC%9D%B8/"/>
     
-      <category term="design" scheme="http://lattecom.xyz/tags/design/"/>
+      <category term="design" scheme="http://blog.lattecom.xyz/tags/design/"/>
     
-      <category term="참고" scheme="http://lattecom.xyz/tags/%EC%B0%B8%EA%B3%A0/"/>
+      <category term="참고" scheme="http://blog.lattecom.xyz/tags/%EC%B0%B8%EA%B3%A0/"/>
     
   </entry>
   
   <entry>
     <title>Swift를 이용한 iOS 화면 전환</title>
-    <link href="http://lattecom.xyz/2016/06/06/swift-ios-scene-transition/"/>
-    <id>http://lattecom.xyz/2016/06/06/swift-ios-scene-transition/</id>
+    <link href="http://blog.lattecom.xyz/2016/06/06/swift-ios-scene-transition/"/>
+    <id>http://blog.lattecom.xyz/2016/06/06/swift-ios-scene-transition/</id>
     <published>2016-06-05T15:46:32.000Z</published>
     <updated>2016-07-26T11:27:10.000Z</updated>
     
@@ -261,23 +261,23 @@
     
     </summary>
     
-      <category term="Dev" scheme="http://lattecom.xyz/categories/dev/"/>
+      <category term="Dev" scheme="http://blog.lattecom.xyz/categories/dev/"/>
     
-      <category term="iOS" scheme="http://lattecom.xyz/categories/dev/ios/"/>
+      <category term="iOS" scheme="http://blog.lattecom.xyz/categories/dev/ios/"/>
     
     
-      <category term="iOS" scheme="http://lattecom.xyz/tags/ios/"/>
+      <category term="iOS" scheme="http://blog.lattecom.xyz/tags/ios/"/>
     
-      <category term="swift" scheme="http://lattecom.xyz/tags/swift/"/>
+      <category term="swift" scheme="http://blog.lattecom.xyz/tags/swift/"/>
     
-      <category term="화면 전환" scheme="http://lattecom.xyz/tags/%ED%99%94%EB%A9%B4-%EC%A0%84%ED%99%98/"/>
+      <category term="화면 전환" scheme="http://blog.lattecom.xyz/tags/%ED%99%94%EB%A9%B4-%EC%A0%84%ED%99%98/"/>
     
   </entry>
   
   <entry>
     <title>Processing symbol files 경고</title>
-    <link href="http://lattecom.xyz/2016/05/19/processing-symbol-files/"/>
-    <id>http://lattecom.xyz/2016/05/19/processing-symbol-files/</id>
+    <link href="http://blog.lattecom.xyz/2016/05/19/processing-symbol-files/"/>
+    <id>http://blog.lattecom.xyz/2016/05/19/processing-symbol-files/</id>
     <published>2016-05-19T11:53:37.000Z</published>
     <updated>2016-08-17T01:34:41.000Z</updated>
     
@@ -295,23 +295,23 @@
     
     </summary>
     
-      <category term="Dev" scheme="http://lattecom.xyz/categories/dev/"/>
+      <category term="Dev" scheme="http://blog.lattecom.xyz/categories/dev/"/>
     
-      <category term="Xcode" scheme="http://lattecom.xyz/categories/dev/xcode/"/>
+      <category term="Xcode" scheme="http://blog.lattecom.xyz/categories/dev/xcode/"/>
     
     
-      <category term="error" scheme="http://lattecom.xyz/tags/error/"/>
+      <category term="error" scheme="http://blog.lattecom.xyz/tags/error/"/>
     
-      <category term="iOS" scheme="http://lattecom.xyz/tags/ios/"/>
+      <category term="iOS" scheme="http://blog.lattecom.xyz/tags/ios/"/>
     
-      <category term="Xcode" scheme="http://lattecom.xyz/tags/xcode/"/>
+      <category term="Xcode" scheme="http://blog.lattecom.xyz/tags/xcode/"/>
     
   </entry>
   
   <entry>
     <title>[번역]Pintos Project Guide</title>
-    <link href="http://lattecom.xyz/2016/05/13/pintos-guide/"/>
-    <id>http://lattecom.xyz/2016/05/13/pintos-guide/</id>
+    <link href="http://blog.lattecom.xyz/2016/05/13/pintos-guide/"/>
+    <id>http://blog.lattecom.xyz/2016/05/13/pintos-guide/</id>
     <published>2016-05-13T12:06:06.000Z</published>
     <updated>2016-07-26T11:27:10.000Z</updated>
     
@@ -376,19 +376,19 @@
     
     </summary>
     
-      <category term="Dev" scheme="http://lattecom.xyz/categories/dev/"/>
+      <category term="Dev" scheme="http://blog.lattecom.xyz/categories/dev/"/>
     
-      <category term="PintOS" scheme="http://lattecom.xyz/categories/dev/pintos/"/>
+      <category term="PintOS" scheme="http://blog.lattecom.xyz/categories/dev/pintos/"/>
     
     
-      <category term="pintos" scheme="http://lattecom.xyz/tags/pintos/"/>
+      <category term="pintos" scheme="http://blog.lattecom.xyz/tags/pintos/"/>
     
   </entry>
   
   <entry>
     <title>Tranquilpeak 테마에 웹 폰트 적용하기</title>
-    <link href="http://lattecom.xyz/2016/05/08/tranquilpeak-theme-web-font/"/>
-    <id>http://lattecom.xyz/2016/05/08/tranquilpeak-theme-web-font/</id>
+    <link href="http://blog.lattecom.xyz/2016/05/08/tranquilpeak-theme-web-font/"/>
+    <id>http://blog.lattecom.xyz/2016/05/08/tranquilpeak-theme-web-font/</id>
     <published>2016-05-08T11:42:04.000Z</published>
     <updated>2016-07-26T11:27:10.000Z</updated>
     
@@ -413,23 +413,23 @@
     
     </summary>
     
-      <category term="Blog" scheme="http://lattecom.xyz/categories/blog/"/>
+      <category term="Blog" scheme="http://blog.lattecom.xyz/categories/blog/"/>
     
-      <category term="Hexo" scheme="http://lattecom.xyz/categories/blog/hexo/"/>
+      <category term="Hexo" scheme="http://blog.lattecom.xyz/categories/blog/hexo/"/>
     
     
-      <category term="hexo" scheme="http://lattecom.xyz/tags/hexo/"/>
+      <category term="hexo" scheme="http://blog.lattecom.xyz/tags/hexo/"/>
     
-      <category term="theme" scheme="http://lattecom.xyz/tags/theme/"/>
+      <category term="theme" scheme="http://blog.lattecom.xyz/tags/theme/"/>
     
-      <category term="tranquilpeak" scheme="http://lattecom.xyz/tags/tranquilpeak/"/>
+      <category term="tranquilpeak" scheme="http://blog.lattecom.xyz/tags/tranquilpeak/"/>
     
   </entry>
   
   <entry>
     <title>정적 블로그 프레임워크 Hexo</title>
-    <link href="http://lattecom.xyz/2016/02/15/hexo-init/"/>
-    <id>http://lattecom.xyz/2016/02/15/hexo-init/</id>
+    <link href="http://blog.lattecom.xyz/2016/02/15/hexo-init/"/>
+    <id>http://blog.lattecom.xyz/2016/02/15/hexo-init/</id>
     <published>2016-02-15T12:46:21.000Z</published>
     <updated>2016-07-26T11:27:10.000Z</updated>
     
@@ -450,27 +450,27 @@
     
     </summary>
     
-      <category term="Blog" scheme="http://lattecom.xyz/categories/blog/"/>
+      <category term="Blog" scheme="http://blog.lattecom.xyz/categories/blog/"/>
     
-      <category term="Hexo" scheme="http://lattecom.xyz/categories/blog/hexo/"/>
+      <category term="Hexo" scheme="http://blog.lattecom.xyz/categories/blog/hexo/"/>
     
     
-      <category term="hexo" scheme="http://lattecom.xyz/tags/hexo/"/>
+      <category term="hexo" scheme="http://blog.lattecom.xyz/tags/hexo/"/>
     
-      <category term="blog" scheme="http://lattecom.xyz/tags/blog/"/>
+      <category term="blog" scheme="http://blog.lattecom.xyz/tags/blog/"/>
     
-      <category term="static blog" scheme="http://lattecom.xyz/tags/static-blog/"/>
+      <category term="static blog" scheme="http://blog.lattecom.xyz/tags/static-blog/"/>
     
-      <category term="정적블로그" scheme="http://lattecom.xyz/tags/%EC%A0%95%EC%A0%81%EB%B8%94%EB%A1%9C%EA%B7%B8/"/>
+      <category term="정적블로그" scheme="http://blog.lattecom.xyz/tags/%EC%A0%95%EC%A0%81%EB%B8%94%EB%A1%9C%EA%B7%B8/"/>
     
-      <category term="블로그" scheme="http://lattecom.xyz/tags/%EB%B8%94%EB%A1%9C%EA%B7%B8/"/>
+      <category term="블로그" scheme="http://blog.lattecom.xyz/tags/%EB%B8%94%EB%A1%9C%EA%B7%B8/"/>
     
   </entry>
   
   <entry>
     <title>라즈베리파이 사용기-1</title>
-    <link href="http://lattecom.xyz/2015/12/20/raspberrypi-review/"/>
-    <id>http://lattecom.xyz/2015/12/20/raspberrypi-review/</id>
+    <link href="http://blog.lattecom.xyz/2015/12/20/raspberrypi-review/"/>
+    <id>http://blog.lattecom.xyz/2015/12/20/raspberrypi-review/</id>
     <published>2015-12-20T10:15:21.000Z</published>
     <updated>2016-07-26T11:27:10.000Z</updated>
     
@@ -502,19 +502,19 @@
     
     </summary>
     
-      <category term="Raspberrypi" scheme="http://lattecom.xyz/categories/raspberrypi/"/>
+      <category term="Raspberrypi" scheme="http://blog.lattecom.xyz/categories/raspberrypi/"/>
     
     
-      <category term="raspberrypi" scheme="http://lattecom.xyz/tags/raspberrypi/"/>
+      <category term="raspberrypi" scheme="http://blog.lattecom.xyz/tags/raspberrypi/"/>
     
-      <category term="라즈베리파이" scheme="http://lattecom.xyz/tags/%EB%9D%BC%EC%A6%88%EB%B2%A0%EB%A6%AC%ED%8C%8C%EC%9D%B4/"/>
+      <category term="라즈베리파이" scheme="http://blog.lattecom.xyz/tags/%EB%9D%BC%EC%A6%88%EB%B2%A0%EB%A6%AC%ED%8C%8C%EC%9D%B4/"/>
     
   </entry>
   
   <entry>
     <title>express 모듈로 nodejs app 자동 생성하기</title>
-    <link href="http://lattecom.xyz/2015/12/18/express-generator/"/>
-    <id>http://lattecom.xyz/2015/12/18/express-generator/</id>
+    <link href="http://blog.lattecom.xyz/2015/12/18/express-generator/"/>
+    <id>http://blog.lattecom.xyz/2015/12/18/express-generator/</id>
     <published>2015-12-17T15:47:56.000Z</published>
     <updated>2016-07-26T11:27:10.000Z</updated>
     
@@ -532,16 +532,16 @@
     
     </summary>
     
-      <category term="Dev" scheme="http://lattecom.xyz/categories/dev/"/>
+      <category term="Dev" scheme="http://blog.lattecom.xyz/categories/dev/"/>
     
-      <category term="NodeJS" scheme="http://lattecom.xyz/categories/dev/nodejs/"/>
+      <category term="NodeJS" scheme="http://blog.lattecom.xyz/categories/dev/nodejs/"/>
     
     
-      <category term="express" scheme="http://lattecom.xyz/tags/express/"/>
+      <category term="express" scheme="http://blog.lattecom.xyz/tags/express/"/>
     
-      <category term="node" scheme="http://lattecom.xyz/tags/node/"/>
+      <category term="node" scheme="http://blog.lattecom.xyz/tags/node/"/>
     
-      <category term="nodejs" scheme="http://lattecom.xyz/tags/nodejs/"/>
+      <category term="nodejs" scheme="http://blog.lattecom.xyz/tags/nodejs/"/>
     
   </entry>
   
