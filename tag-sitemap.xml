@@ -2,21 +2,21 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
     <url>
-        <loc>http://blog.lattecom.xyz/tags/hexo/</loc>
+        <loc>http://blog.lattecom.xyz/tags/express/</loc>
         <lastmod>2016-07-26T11:27:10.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>http://blog.lattecom.xyz/tags/theme/</loc>
+        <loc>http://blog.lattecom.xyz/tags/node/</loc>
         <lastmod>2016-07-26T11:27:10.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>http://blog.lattecom.xyz/tags/tranquilpeak/</loc>
+        <loc>http://blog.lattecom.xyz/tags/nodejs/</loc>
         <lastmod>2016-07-26T11:27:10.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
@@ -31,6 +31,13 @@
 
     <url>
         <loc>http://blog.lattecom.xyz/tags/%EB%9D%BC%EC%A6%88%EB%B2%A0%EB%A6%AC%ED%8C%8C%EC%9D%B4/</loc>
+        <lastmod>2016-07-26T11:27:10.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://blog.lattecom.xyz/tags/hexo/</loc>
         <lastmod>2016-07-26T11:27:10.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
@@ -65,21 +72,14 @@
     </url>
 
     <url>
-        <loc>http://blog.lattecom.xyz/tags/express/</loc>
+        <loc>http://blog.lattecom.xyz/tags/theme/</loc>
         <lastmod>2016-07-26T11:27:10.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>http://blog.lattecom.xyz/tags/node/</loc>
-        <lastmod>2016-07-26T11:27:10.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://blog.lattecom.xyz/tags/nodejs/</loc>
+        <loc>http://blog.lattecom.xyz/tags/tranquilpeak/</loc>
         <lastmod>2016-07-26T11:27:10.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
@@ -87,6 +87,20 @@
 
     <url>
         <loc>http://blog.lattecom.xyz/tags/pintos/</loc>
+        <lastmod>2016-07-26T11:27:10.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://blog.lattecom.xyz/tags/swift/</loc>
+        <lastmod>2016-07-26T11:27:10.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://blog.lattecom.xyz/tags/%ED%99%94%EB%A9%B4-%EC%A0%84%ED%99%98/</loc>
         <lastmod>2016-07-26T11:27:10.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
@@ -114,21 +128,21 @@
     </url>
 
     <url>
-        <loc>http://blog.lattecom.xyz/tags/swift/</loc>
-        <lastmod>2016-07-26T11:27:10.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://blog.lattecom.xyz/tags/%ED%99%94%EB%A9%B4-%EC%A0%84%ED%99%98/</loc>
-        <lastmod>2016-07-26T11:27:10.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>http://blog.lattecom.xyz/tags/github/</loc>
+        <lastmod>2016-07-26T11:27:10.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://blog.lattecom.xyz/tags/mabinogi/</loc>
+        <lastmod>2016-07-26T11:27:10.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://blog.lattecom.xyz/tags/%EB%B3%B5%EC%9B%90/</loc>
         <lastmod>2016-07-26T11:27:10.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
@@ -164,20 +178,6 @@
 
     <url>
         <loc>http://blog.lattecom.xyz/tags/legacy-java/</loc>
-        <lastmod>2016-07-26T11:27:10.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://blog.lattecom.xyz/tags/mabinogi/</loc>
-        <lastmod>2016-07-26T11:27:10.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://blog.lattecom.xyz/tags/%EB%B3%B5%EC%9B%90/</loc>
         <lastmod>2016-07-26T11:27:10.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>

@@ -7,13 +7,6 @@
     </url>
 
     <url>
-        <loc>http://blog.lattecom.xyz/categories/blog/</loc>
-        <lastmod>2016-07-26T11:27:10.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>http://blog.lattecom.xyz/categories/raspberrypi/</loc>
         <lastmod>2016-07-26T11:27:10.000Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -21,21 +14,7 @@
     </url>
 
     <url>
-        <loc>http://blog.lattecom.xyz/categories/blog/hexo/</loc>
-        <lastmod>2016-07-26T11:27:10.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://blog.lattecom.xyz/categories/reference/</loc>
-        <lastmod>2016-07-26T11:27:10.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://blog.lattecom.xyz/categories/dev/r/</loc>
+        <loc>http://blog.lattecom.xyz/categories/blog/</loc>
         <lastmod>2016-07-26T11:27:10.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
@@ -49,13 +28,6 @@
     </url>
 
     <url>
-        <loc>http://blog.lattecom.xyz/categories/game/</loc>
-        <lastmod>2016-07-26T11:27:10.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>http://blog.lattecom.xyz/categories/dev/pintos/</loc>
         <lastmod>2016-07-26T11:27:10.000Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -63,14 +35,42 @@
     </url>
 
     <url>
-        <loc>http://blog.lattecom.xyz/categories/reference/design/</loc>
+        <loc>http://blog.lattecom.xyz/categories/dev/ios/</loc>
         <lastmod>2016-07-26T11:27:10.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>http://blog.lattecom.xyz/categories/dev/ios/</loc>
+        <loc>http://blog.lattecom.xyz/categories/reference/</loc>
+        <lastmod>2016-07-26T11:27:10.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://blog.lattecom.xyz/categories/blog/hexo/</loc>
+        <lastmod>2016-07-26T11:27:10.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://blog.lattecom.xyz/categories/game/</loc>
+        <lastmod>2016-07-26T11:27:10.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://blog.lattecom.xyz/categories/dev/r/</loc>
+        <lastmod>2016-07-26T11:27:10.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://blog.lattecom.xyz/categories/reference/design/</loc>
         <lastmod>2016-07-26T11:27:10.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
