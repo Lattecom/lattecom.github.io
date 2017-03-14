@@ -1,0 +1,676 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="generator" content="LatteCom&#39;s Library">
+    <title>스칼라로 배우는 함수형 프로그래밍을 읽고서 - LatteCom&#39;s Library</title>
+    <meta name="author" content="LatteCom">
+    
+    
+        <link rel="icon" href="http://blog.lattecom.xyz/assets/images/favicon.ico">
+    
+    
+        <link rel="alternate" type="application/atom+xml" title="RSS" href="/atom.xml">
+    
+    <meta name="description" content="‘Functional Programming in SCALA’의 번역서인 ‘스칼라로 배우는 함수형 프로그래밍’을 공부하면서 복습을 위해 간단하게 리뷰 포스팅을 진행하려합니다.
+
+제목 : 스칼라로 배우는 함수형 프로그래밍(Functional Programming in SCALA)
+지은이 : Paul Chiudano, Runa Bjarnason
+옮긴이 : 류광">
+<meta property="og:type" content="blog">
+<meta property="og:title" content="스칼라로 배우는 함수형 프로그래밍을 읽고서">
+<meta property="og:url" content="http://blog.lattecom.xyz/2017/03/14/functional-programming-in-scala/index.html">
+<meta property="og:site_name" content="LatteCom's Library">
+<meta property="og:description" content="‘Functional Programming in SCALA’의 번역서인 ‘스칼라로 배우는 함수형 프로그래밍’을 공부하면서 복습을 위해 간단하게 리뷰 포스팅을 진행하려합니다.
+
+제목 : 스칼라로 배우는 함수형 프로그래밍(Functional Programming in SCALA)
+지은이 : Paul Chiudano, Runa Bjarnason
+옮긴이 : 류광">
+<meta property="og:updated_time" content="2017-03-14T11:48:50.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="스칼라로 배우는 함수형 프로그래밍을 읽고서">
+<meta name="twitter:description" content="‘Functional Programming in SCALA’의 번역서인 ‘스칼라로 배우는 함수형 프로그래밍’을 공부하면서 복습을 위해 간단하게 리뷰 포스팅을 진행하려합니다.
+
+제목 : 스칼라로 배우는 함수형 프로그래밍(Functional Programming in SCALA)
+지은이 : Paul Chiudano, Runa Bjarnason
+옮긴이 : 류광">
+    
+    
+        
+    
+    
+    
+    
+    
+    <!--STYLES-->
+    <link rel="stylesheet" href="/assets/css/style-qdouzplpgf6wrjbamx38o1csvqynzzkagf1cpzog4zjrgxn7anjcab4wsgsb.min.css">
+    <!--STYLES END-->
+    
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-72487547-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+
+
+    
+</head>
+
+    <body>
+        <div id="blog">
+            <!-- Define author's picture -->
+
+
+    
+
+<header id="header" data-behavior="1">
+    <i id="btn-open-sidebar" class="fa fa-lg fa-bars"></i>
+    <div class="header-title">
+        <a class="header-title-link" href="/ ">LatteCom&#39;s Library</a>
+    </div>
+    
+        
+            <a  class="header-right-picture "
+                href="#about">
+        
+        
+        </a>
+    
+</header>
+
+            <!-- Define author's picture -->
+
+
+<nav id="sidebar" data-behavior="1">
+    <div class="sidebar-container">
+        
+        
+            <ul class="sidebar-buttons">
+            
+                <li class="sidebar-button">
+                    
+                        <a  class="sidebar-button-link "
+                             href="/ "
+                            
+                        >
+                    
+                        <i class="sidebar-button-icon fa fa-lg fa-home"></i>
+                        <span class="sidebar-button-desc">Home</span>
+                    </a>
+            </li>
+            
+                <li class="sidebar-button">
+                    
+                        <a  class="sidebar-button-link "
+                             href="/all-categories"
+                            
+                        >
+                    
+                        <i class="sidebar-button-icon fa fa-lg fa-bookmark"></i>
+                        <span class="sidebar-button-desc">Categories</span>
+                    </a>
+            </li>
+            
+                <li class="sidebar-button">
+                    
+                        <a  class="sidebar-button-link "
+                             href="/all-tags"
+                            
+                        >
+                    
+                        <i class="sidebar-button-icon fa fa-lg fa-tags"></i>
+                        <span class="sidebar-button-desc">Tags</span>
+                    </a>
+            </li>
+            
+                <li class="sidebar-button">
+                    
+                        <a  class="sidebar-button-link "
+                             href="/all-archives"
+                            
+                        >
+                    
+                        <i class="sidebar-button-icon fa fa-lg fa-archive"></i>
+                        <span class="sidebar-button-desc">Archives</span>
+                    </a>
+            </li>
+            
+                <li class="sidebar-button">
+                    
+                        <a  class="sidebar-button-link open-algolia-search"
+                             href="#search"
+                            
+                        >
+                    
+                        <i class="sidebar-button-icon fa fa-lg fa-search"></i>
+                        <span class="sidebar-button-desc">Search</span>
+                    </a>
+            </li>
+            
+                <li class="sidebar-button">
+                    
+                        <a  class="sidebar-button-link "
+                             href="#about"
+                            
+                        >
+                    
+                        <i class="sidebar-button-icon fa fa-lg fa-question"></i>
+                        <span class="sidebar-button-desc">About</span>
+                    </a>
+            </li>
+            
+        </ul>
+        
+            <ul class="sidebar-buttons">
+            
+                <li class="sidebar-button">
+                    
+                        <a  class="sidebar-button-link " href="https://github.com/Lattecom" target="_blank">
+                    
+                        <i class="sidebar-button-icon fa fa-lg fa-github"></i>
+                        <span class="sidebar-button-desc">GitHub</span>
+                    </a>
+            </li>
+            
+        </ul>
+        
+            <ul class="sidebar-buttons">
+            
+                <li class="sidebar-button">
+                    
+                        <a  class="sidebar-button-link "
+                             href="/atom.xml"
+                            
+                        >
+                    
+                        <i class="sidebar-button-icon fa fa-lg fa-rss"></i>
+                        <span class="sidebar-button-desc">RSS</span>
+                    </a>
+            </li>
+            
+        </ul>
+        
+    </div>
+</nav>
+
+            
+            <div id="main" data-behavior="1"
+                 class="
+                        hasCoverMetaIn
+                        ">
+                
+<article class="post" itemscope itemType="http://schema.org/BlogPosting">
+    
+    
+        <div class="post-header main-content-wrap text-left">
+    
+        <h1 class="post-title" itemprop="headline">
+            스칼라로 배우는 함수형 프로그래밍을 읽고서
+        </h1>
+    
+    <div class="post-meta">
+    <time itemprop="datePublished" datetime="2017-03-14T20:40:47+09:00">
+	
+		    Mar 14, 2017
+    	
+    </time>
+    
+        <span>in </span>
+        
+    <a class="category-link" href="/categories/dev/">Dev</a>, <a class="category-link" href="/categories/dev/functional-programming/">Functional Programming</a>
+
+
+    
+</div>
+
+</div>
+    
+    <div class="post-content markdown" itemprop="articleBody">
+        <div class="main-content-wrap">
+            <p>‘Functional Programming in SCALA’의 번역서인 ‘스칼라로 배우는 함수형 프로그래밍’을 공부하면서 복습을 위해 간단하게 리뷰 포스팅을 진행하려합니다.</p>
+<ul>
+<li>제목 : 스칼라로 배우는 함수형 프로그래밍(Functional Programming in SCALA)</li>
+<li>지은이 : Paul Chiudano, Runa Bjarnason</li>
+<li>옮긴이 : 류광</li>
+<li>출판사 : Jpub<a id="more"></a>
+<h2 id="제1부-함수형-프로그래밍-입문"><a href="#제1부-함수형-프로그래밍-입문" class="headerlink" title="제1부 함수형 프로그래밍 입문"></a>제1부 함수형 프로그래밍 입문</h2><h3 id="제1장-함수형-프로그래밍이란-무엇인가"><a href="#제1장-함수형-프로그래밍이란-무엇인가" class="headerlink" title="제1장 함수형 프로그래밍이란 무엇인가?"></a>제1장 함수형 프로그래밍이란 무엇인가?</h3>간단한 예제들로 <strong>부수효과(side effect)</strong>의 단점과 Side Effect를 제거한 <strong>순수함수(pure function)</strong>에 대한 개념을 설명해주었다. side effect는 함수의 입력값에 따른 결과값(return 값) 이외의 행동들에 대한 것들이다. 예를 들어 변수의 값을 수정, 화면에 문자를 출력 등의 작업이 side effect에 해당한다.<br>순수하게 입력값에 따른 결과값만 반환하고 그 행동 이외에 어떠한 side effect가 없는 함수를 pure function이라 한다. 이러한 pure function은 해당 함수 스코프에서만 영향을 미치고 눈에 보이지 않는 부분을 수정하지 않으므로(책에서는 local reasoning이라고 언급) 버그를 낼 확률이 적으며, 디버깅시에 유용하다. 또한 외부와의 interaction이 없기 떄문에 모듈성이 증가해 재사용성도 증가한다.<br><strong>참조 투명성(referential transparency, RT)</strong>에 대한 개념도 소개하고 있다. 예를들어, <code>val x = “bug bug debug”</code>라는 expression이 있고  코드의 다른 부분에서 x를 사용하는 부분이 있다고 가정했을 때, 그 x를 등호의 오른쪽 표현식인 “bug bug debug”라는 스트링으로 치환 했을때, 코드의 동작이나 의미에 아무런 영향이 없으면 ‘참조에 투명하다’ 라고 한다.</li>
+</ul>
+<p>위에서 언급한 <strong>참조 투명성</strong>과 함수의 <strong>순수성</strong>의 개념이 비슷하면서도 다르게 느껴지는데 아직까지는 정확한 차이를 모르겠다.</p>
+<p>책에서는 다음과 같이 설명하고 있다.</p>
+<blockquote>
+<p>참조 투명성과 순수성</p>
+<p>만일 모든 프로그램 p에 대해 표현식 e의 모든 출현(occurrence)을 e의 평가 결과로 치환해도  p의 의미에 아무 영향이 미치지 않는다면, 그 표현식 e는 참조에 투명하다(referentially transparent). 만일 표현식 f(x)가 참조에 투명한 모든 x에 대해 참조에 투명하면, 함수 f는 순수하다(pure).<br>— 스칼라로 배우는 함수형 프로그래밍, p.12</p>
+</blockquote>
+
+            
+        </div>
+    </div>
+    <div id="post-footer" class="post-footer main-content-wrap">
+        
+            <div class="post-footer-tags">
+                <span class="text-color-light text-small">TAGGED IN</span><br/>
+                
+    <a class="tag tag--primary tag--small t-link" href="/tags/functional-programming/">functional programming</a> <a class="tag tag--primary tag--small t-link" href="/tags/pure-function/">pure function</a> <a class="tag tag--primary tag--small t-link" href="/tags/scala/">scala</a> <a class="tag tag--primary tag--small t-link" href="/tags/side-effect/">side effect</a>
+
+            </div>
+        
+        <div class="post-actions-wrap">
+    <nav>
+        <ul class="post-actions post-action-nav">
+            <li class="post-action">
+                
+                    <a class="post-action-btn btn btn--disabled">
+                
+                    <i class="fa fa-angle-left"></i>
+                    <span class="hide-xs hide-sm text-small icon-ml">PREVIOUS</span>
+                </a>
+            </li>
+            <li class="post-action">
+                
+                    <a class="post-action-btn btn btn--default tooltip--top" href="/2016/07/08/r-java-setting-in-mac/" data-tooltip="맥에서 R(R Studio) Java 환경변수 설정하기">
+                
+                    <span class="hide-xs hide-sm text-small icon-mr">NEXT</span>
+                    <i class="fa fa-angle-right"></i>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <ul class="post-actions post-action-share">
+        <li class="post-action hide-lg hide-md hide-sm">
+            <a class="post-action-btn btn btn--default btn-open-shareoptions"  href="#btn-open-shareoptions">
+                <i class="fa fa-share-alt"></i>
+            </a>
+        </li>
+        <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=http://blog.lattecom.xyz/2017/03/14/functional-programming-in-scala/">
+                <i class="fa fa-google-plus"></i>
+            </a>
+        </li>
+        <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=http://blog.lattecom.xyz/2017/03/14/functional-programming-in-scala/">
+                <i class="fa fa-facebook-official"></i>
+            </a>
+        </li>
+        <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=http://blog.lattecom.xyz/2017/03/14/functional-programming-in-scala/">
+                <i class="fa fa-twitter"></i>
+            </a>
+        </li>
+        
+            <li class="post-action">
+                <a class="post-action-btn btn btn--default" href="#disqus_thread">
+                    <i class="fa fa-comment-o"></i>
+                </a>
+            </li>
+        
+        <li class="post-action">
+            
+                <a class="post-action-btn btn btn--default" href="#">
+            
+                <i class="fa fa-list"></i>
+            </a>
+        </li>
+    </ul>
+</div>
+
+
+        
+            
+                <div id="disqus_thread">
+    <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+            
+        
+    </div>
+</article>
+
+
+
+                <footer id="footer" class="main-content-wrap">
+    <span class="copyrights">
+        Copyrights &copy; 2017 LatteCom. All Rights Reserved.
+    </span>
+</footer>
+
+            </div>
+            
+                <div id="bottom-bar" class="post-bottom-bar" data-behavior="1">
+                    <div class="post-actions-wrap">
+    <nav>
+        <ul class="post-actions post-action-nav">
+            <li class="post-action">
+                
+                    <a class="post-action-btn btn btn--disabled">
+                
+                    <i class="fa fa-angle-left"></i>
+                    <span class="hide-xs hide-sm text-small icon-ml">PREVIOUS</span>
+                </a>
+            </li>
+            <li class="post-action">
+                
+                    <a class="post-action-btn btn btn--default tooltip--top" href="/2016/07/08/r-java-setting-in-mac/" data-tooltip="맥에서 R(R Studio) Java 환경변수 설정하기">
+                
+                    <span class="hide-xs hide-sm text-small icon-mr">NEXT</span>
+                    <i class="fa fa-angle-right"></i>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <ul class="post-actions post-action-share">
+        <li class="post-action hide-lg hide-md hide-sm">
+            <a class="post-action-btn btn btn--default btn-open-shareoptions"  href="#btn-open-shareoptions">
+                <i class="fa fa-share-alt"></i>
+            </a>
+        </li>
+        <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=http://blog.lattecom.xyz/2017/03/14/functional-programming-in-scala/">
+                <i class="fa fa-google-plus"></i>
+            </a>
+        </li>
+        <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=http://blog.lattecom.xyz/2017/03/14/functional-programming-in-scala/">
+                <i class="fa fa-facebook-official"></i>
+            </a>
+        </li>
+        <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=http://blog.lattecom.xyz/2017/03/14/functional-programming-in-scala/">
+                <i class="fa fa-twitter"></i>
+            </a>
+        </li>
+        
+            <li class="post-action">
+                <a class="post-action-btn btn btn--default" href="#disqus_thread">
+                    <i class="fa fa-comment-o"></i>
+                </a>
+            </li>
+        
+        <li class="post-action">
+            
+                <a class="post-action-btn btn btn--default" href="#">
+            
+                <i class="fa fa-list"></i>
+            </a>
+        </li>
+    </ul>
+</div>
+
+
+                </div>
+                <div id="share-options-bar" class="share-options-bar" data-behavior="1">
+    <ul class="share-options">
+        <li class="share-option">
+            <a class="share-option-btn" target="new" href="https://plus.google.com/share?url=http://blog.lattecom.xyz/2017/03/14/functional-programming-in-scala/">
+                <i class="fa fa-google-plus"></i><span>Share on Google Plus</span>
+            </a>
+        </li>
+        <li class="share-option">
+            <a class="share-option-btn" target="new" href="https://www.facebook.com/sharer/sharer.php?u=http://blog.lattecom.xyz/2017/03/14/functional-programming-in-scala/">
+                <i class="fa fa-facebook-official"></i><span>Share on Facebook</span>
+            </a>
+        </li>
+        <li class="share-option">
+            <a class="share-option-btn" target="new" href="https://twitter.com/intent/tweet?text=http://blog.lattecom.xyz/2017/03/14/functional-programming-in-scala/">
+                <i class="fa fa-twitter"></i><span>Share on Twitter</span>
+            </a>
+        </li>
+    </ul>
+</div>
+<div id="share-options-mask" class="share-options-mask"></div>
+
+            
+        </div>
+        
+
+
+<div id="about">
+    <div id="about-card">
+        <div id="about-btn-close">
+            <i class="fa fa-remove"></i>
+        </div>
+        
+            <h4 id="about-card-name">LatteCom</h4>
+        
+            <div id="about-card-bio"><p>author.bio</p>
+</div>
+        
+        
+            <div id="about-card-job">
+                <i class="fa fa-briefcase"></i>
+                <br/>
+                <p>author.job</p>
+
+            </div>
+        
+        
+            <div id="about-card-location">
+                <i class="fa fa-map-marker"></i>
+                <br/>
+                Ansan
+            </div>
+        
+    </div>
+</div>
+
+        <div id="algolia-search-modal" class="modal-container">
+    <div class="modal">
+        <div class="modal-header">
+            <span class="close-button"><i class="fa fa-close"></i></span>
+            <a href="https://algolia.com" target="_blank" class="searchby-algolia text-color-light link-unstyled">
+                <span class="searchby-algolia-text text-color-light text-small">by</span>
+                <img class="searchby-algolia-logo" src="https://www.algolia.com/static_assets/images/press/downloads/algolia-light.svg">
+            </a>
+            <i class="search-icon fa fa-search"></i>
+            <form id="algolia-search-form">
+                <input type="text" id="algolia-search-input" name="search"
+                    class="form-control input--large search-input" placeholder="Search "
+                    autofocus="autofocus"/>
+            </form>
+        </div>
+        <div class="modal-body">
+            <div class="no-result text-color-light text-center">no post found</div>
+            <div class="results">
+                
+                <div class="media">
+                    
+                    <div class="media-body">
+                        <a class="link-unstyled" href="http://blog.lattecom.xyz/2015/12/18/express-generator/">
+                            <h3 class="media-heading">express 모듈로 nodejs app 자동 생성하기</h3>
+                        </a>
+                        <span class="media-meta">
+                            <span class="media-date text-small">
+                                
+                                    Dec 18, 2015
+                                
+                            </span>
+                        </span>
+                        <div class="media-content hide-xs font-merryweather"><p>nodejs를 공부하던 중 책에서 다음과 같은 명령어로 app을 자동 생성하는 부분을 보았습니다.</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ express --session --ejs --css stylus myapp</div></pre></td></tr></table></figure></div>
+                    </div>
+                    <div style="clear:both;"></div>
+                    <hr>
+                </div>
+                
+                <div class="media">
+                    
+                    <div class="media-body">
+                        <a class="link-unstyled" href="http://blog.lattecom.xyz/2015/12/20/raspberrypi-review/">
+                            <h3 class="media-heading">라즈베리파이 사용기-1</h3>
+                        </a>
+                        <span class="media-meta">
+                            <span class="media-date text-small">
+                                
+                                    Dec 20, 2015
+                                
+                            </span>
+                        </span>
+                        <div class="media-content hide-xs font-merryweather"><p>나중에 필요할 때 참고할 수 있도록 라즈베리파이(이하 산딸기)를 사용하는 흔적들을 남기려 합니다.<br>주로 무언가 설치하거나 설정하는 방법들에 대해서 기록할 것입니다.<br></div>
+                    </div>
+                    <div style="clear:both;"></div>
+                    <hr>
+                </div>
+                
+                <div class="media">
+                    
+                    <div class="media-body">
+                        <a class="link-unstyled" href="http://blog.lattecom.xyz/2016/02/15/hexo-init/">
+                            <h3 class="media-heading">정적 블로그 프레임워크 Hexo</h3>
+                        </a>
+                        <span class="media-meta">
+                            <span class="media-date text-small">
+                                
+                                    Feb 15, 2016
+                                
+                            </span>
+                        </span>
+                        <div class="media-content hide-xs font-merryweather"><p>블로그를 시작하려고 다양한 블로그 서비스들을 알아보고 있었습니다.<br>흔하게 많은 사용자들이 쓰는 ‘네이버 블로그’, ‘티스토리’, ‘워드프레스 닷컴’ 등의 서비스형 블로그를 우선적으로 찾아보았고, ‘워드프레스’, ‘텍스트큐브’ 등 설치형 블로그에 대해서도 알아보았습니다. 두 가지 모두 각각 장단점이 있습니다.<br></div>
+                    </div>
+                    <div style="clear:both;"></div>
+                    <hr>
+                </div>
+                
+                <div class="media">
+                    
+                    <div class="media-body">
+                        <a class="link-unstyled" href="http://blog.lattecom.xyz/2016/05/08/tranquilpeak-theme-web-font/">
+                            <h3 class="media-heading">Tranquilpeak 테마에 웹 폰트 적용하기</h3>
+                        </a>
+                        <span class="media-meta">
+                            <span class="media-date text-small">
+                                
+                                    May 8, 2016
+                                
+                            </span>
+                        </span>
+                        <div class="media-content hide-xs font-merryweather"><p>hexo blog 테마로 <a href="https://github.com/LouisBarranqueiro/hexo-theme-tranquilpeak">Tranquilpeak</a>을 사용 중 입니다. 깔끔한 디자인에 반응형으로 모바일까지 잘 지원합니다. 다른 테마들과 비교하여 가장 마음에 들었던 부분은 검색 부분입니다. 대부분의 테마들은 구글 도메인 검색으로 대체한 것이 마음에 안들었는데, Tranquilpeak 테마는 <a href="https://swiftype.com">swiftype</a>을 활용하여 플러그인 형태로 쉽게 적용하게 만들어 둔 것이 마음에 들어 사용하고 있습니다.<br></div>
+                    </div>
+                    <div style="clear:both;"></div>
+                    <hr>
+                </div>
+                
+                <div class="media">
+                    
+                    <div class="media-body">
+                        <a class="link-unstyled" href="http://blog.lattecom.xyz/2016/05/13/pintos-guide/">
+                            <h3 class="media-heading">[번역]Pintos Project Guide</h3>
+                        </a>
+                        <span class="media-meta">
+                            <span class="media-date text-small">
+                                
+                                    May 13, 2016
+                                
+                            </span>
+                        </span>
+                        <div class="media-content hide-xs font-merryweather"><ul>
+<li>이 포스트는 지속적으로 갱신되는 포스트입니다.</li>
+<li>이 포스트는 개인적으로 Pintos 프로젝트를 진행하며 스탠포드에서 제공하는 <a href="https://web.stanford.edu/class/cs140/projects/pintos/pintos.html">Pintos Project Guide</a> 페이지를 해석해둔 것을 기록하는 포스트입니다.</li>
+<li>본인의 영어 실력이 부족하여 어마무시하게 많은 오역과 의역이 있습니다.</li>
+<li>위와 같은 이유로 해석하지 않고 넘어가는 부분도 굉장히 많습니다.</li>
+</ul>
+<h2 id=""><a href="#" class="headerlink" title=""></a></div>
+                    </div>
+                    <div style="clear:both;"></div>
+                    <hr>
+                </div>
+                
+                <div class="media">
+                    
+                    <div class="media-body">
+                        <a class="link-unstyled" href="http://blog.lattecom.xyz/2016/05/19/processing-symbol-files/">
+                            <h3 class="media-heading">Processing symbol files 경고</h3>
+                        </a>
+                        <span class="media-meta">
+                            <span class="media-date text-small">
+                                
+                                    May 19, 2016
+                                
+                            </span>
+                        </span>
+                        <div class="media-content hide-xs font-merryweather"><p>Swift로 iOS 앱 개발 공부 중 아이폰을 직접 연결하여 실제 단말기에 실행 시키려 하니 아래와 같은 메세지가 뜨면서 실행이 중지되었다.</p>
+<p><img src="/assets/images/processing-symbol-files.png" alt="Processing symbol files"></p></div>
+                    </div>
+                    <div style="clear:both;"></div>
+                    <hr>
+                </div>
+                
+                <div class="media">
+                    
+                    <div class="media-body">
+                        <a class="link-unstyled" href="http://blog.lattecom.xyz/2016/06/06/swift-ios-scene-transition/">
+                            <h3 class="media-heading">Swift를 이용한 iOS 화면 전환</h3>
+                        </a>
+                        <span class="media-meta">
+                            <span class="media-date text-small">
+                                
+                                    Jun 6, 2016
+                                
+                            </span>
+                        </span>
+                        <div class="media-content hide-xs font-merryweather"><p>iOS에서 화면전환에는 크게 4가지가 있다고 한다.</p>
+<ol>
+<li>뷰 컨트롤러의 뷰 위에 다른 뷰컨트롤러의 뷰를 가져와 바꿔치기</li>
+<li>뷰 컨트롤러에서 다른 뷰 컨트롤러를 호출하기</li>
+<li>내비게이션 컨트롤러 사용하기</li>
+<li>화면 전환용 객체 세그웨이(Segueway) 사용하기</li>
+</ol>
+<p>위에서 1번 방식은 하나의 뷰 컨트롤러가 두 개 이상의 싱글 뷰를 관리하기에 좋은 방법이 아니라 잘 사용하지 않는다.<br></div>
+                    </div>
+                    <div style="clear:both;"></div>
+                    <hr>
+                </div>
+                
+            </div>
+        </div>
+        <div class="modal-footer">
+            <p class="results-count text-medium"
+                data-message-zero="no post found"
+                data-message-one="1 post found"
+                data-message-other="{n} posts found">
+                12 posts found
+            </p>
+        </div>
+    </div>
+</div>
+        
+<div id="cover" style="background-image:url('/assets/images/cover.jpg');"></div>
+        <!--SCRIPTS-->
+<script src="/assets/js/script-ztqt6dfimk3ozcuypwbybi9wqghdqtviheqktmxos8knn35rtvqwfpqbfgna.min.js"></script>
+<!--SCRIPTS END-->
+
+    
+        <script>
+             var disqus_config = function () {
+                 this.page.url = 'http://blog.lattecom.xyz/2017/03/14/functional-programming-in-scala/';
+                 
+                    this.page.identifier = '2017/03/14/functional-programming-in-scala/';
+                 
+             };
+            (function() {
+                var d = document, s = d.createElement('script');
+                var disqus_shortname = 'lattecom';
+                s.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+
+                s.setAttribute('data-timestamp', +new Date());
+                (d.head || d.body).appendChild(s);
+            })();
+        </script>
+    
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.14.1/moment-with-locales.min.js"></script>
+    <script src="//cdn.jsdelivr.net/algoliasearch/3/algoliasearch.min.js"></script>
+    <script>
+        var algoliaClient = algoliasearch('Z7A3XW4R2I', '12db1ad54372045549ef465881c17e743');
+        var algoliaIndex = algoliaClient.initIndex('LatteCom');
+    </script>
+
+    </body>
+</html>

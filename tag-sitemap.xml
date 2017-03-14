@@ -107,27 +107,6 @@
     </url>
 
     <url>
-        <loc>http://blog.lattecom.xyz/tags/%EB%94%94%EC%9E%90%EC%9D%B8/</loc>
-        <lastmod>2016-07-26T11:27:10.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://blog.lattecom.xyz/tags/design/</loc>
-        <lastmod>2016-07-26T11:27:10.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://blog.lattecom.xyz/tags/%EC%B0%B8%EA%B3%A0/</loc>
-        <lastmod>2016-07-26T11:27:10.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>http://blog.lattecom.xyz/tags/github/</loc>
         <lastmod>2016-07-26T11:27:10.000Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -200,6 +179,55 @@
     <url>
         <loc>http://blog.lattecom.xyz/tags/xcode/</loc>
         <lastmod>2016-08-17T01:34:41.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://blog.lattecom.xyz/tags/%EB%94%94%EC%9E%90%EC%9D%B8/</loc>
+        <lastmod>2016-12-04T11:12:48.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://blog.lattecom.xyz/tags/design/</loc>
+        <lastmod>2016-12-04T11:12:48.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://blog.lattecom.xyz/tags/%EC%B0%B8%EA%B3%A0/</loc>
+        <lastmod>2016-12-04T11:12:48.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://blog.lattecom.xyz/tags/functional-programming/</loc>
+        <lastmod>2017-03-14T11:48:50.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://blog.lattecom.xyz/tags/scala/</loc>
+        <lastmod>2017-03-14T11:48:50.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://blog.lattecom.xyz/tags/pure-function/</loc>
+        <lastmod>2017-03-14T11:48:50.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://blog.lattecom.xyz/tags/side-effect/</loc>
+        <lastmod>2017-03-14T11:48:50.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
