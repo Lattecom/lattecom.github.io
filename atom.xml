@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://blog.lattecom.xyz/"/>
-  <updated>2017-03-14T11:56:27.000Z</updated>
+  <updated>2017-03-17T09:27:11.000Z</updated>
   <id>http://blog.lattecom.xyz/</id>
   
   <author>
@@ -16,11 +16,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>스칼라로 배우는 함수형 프로그래밍을 읽고서</title>
+    <title>[리뷰]스칼라로 배우는 함수형 프로그래밍</title>
     <link href="http://blog.lattecom.xyz/2017/03/14/functional-programming-in-scala/"/>
     <id>http://blog.lattecom.xyz/2017/03/14/functional-programming-in-scala/</id>
     <published>2017-03-14T11:40:47.000Z</published>
-    <updated>2017-03-14T11:56:27.000Z</updated>
+    <updated>2017-03-17T09:27:11.000Z</updated>
     
     <content type="html"><![CDATA[<p>‘Functional Programming in SCALA’의 번역서인 ‘스칼라로 배우는 함수형 프로그래밍’을 공부하면서 복습을 위해 간단하게 리뷰 포스팅을 진행하려합니다.</p>
 <ul>
