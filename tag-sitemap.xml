@@ -206,28 +206,28 @@
 
     <url>
         <loc>http://blog.lattecom.xyz/tags/functional-programming/</loc>
-        <lastmod>2017-03-14T11:54:08.000Z</lastmod>
+        <lastmod>2017-03-14T11:56:27.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://blog.lattecom.xyz/tags/scala/</loc>
-        <lastmod>2017-03-14T11:54:08.000Z</lastmod>
+        <lastmod>2017-03-14T11:56:27.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://blog.lattecom.xyz/tags/pure-function/</loc>
-        <lastmod>2017-03-14T11:54:08.000Z</lastmod>
+        <lastmod>2017-03-14T11:56:27.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://blog.lattecom.xyz/tags/side-effect/</loc>
-        <lastmod>2017-03-14T11:54:08.000Z</lastmod>
+        <lastmod>2017-03-14T11:56:27.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
