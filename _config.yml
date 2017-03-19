@@ -77,6 +77,9 @@ feed:
   path: atom.xml
   limit: 20
 
+sitemap:
+  path: sitemap.xml
+
 algolia:
   appId: "Z7A3XW4R2I"
   apiKey: "12db1ad54372045549ef465881c17e743"
