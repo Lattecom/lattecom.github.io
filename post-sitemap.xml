@@ -8,87 +8,7 @@
 
     <url>
         <loc>http://blog.lattecom.xyz/2017/03/14/functional-programming-in-scala/</loc>
-        <lastmod>2017-03-17T09:27:11.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://blog.lattecom.xyz/2016/06/15/reference-link-design/</loc>
-        <lastmod>2016-12-04T11:12:48.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://blog.lattecom.xyz/2016/05/19/processing-symbol-files/</loc>
-        <lastmod>2016-08-17T01:34:41.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://blog.lattecom.xyz/2015/12/18/express-generator/</loc>
-        <lastmod>2016-07-26T11:27:10.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://blog.lattecom.xyz/2015/12/20/raspberrypi-review/</loc>
-        <lastmod>2016-07-26T11:27:10.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://blog.lattecom.xyz/2016/02/15/hexo-init/</loc>
-        <lastmod>2016-07-26T11:27:10.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://blog.lattecom.xyz/2016/05/08/tranquilpeak-theme-web-font/</loc>
-        <lastmod>2016-07-26T11:27:10.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://blog.lattecom.xyz/2016/05/13/pintos-guide/</loc>
-        <lastmod>2016-07-26T11:27:10.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://blog.lattecom.xyz/2016/06/06/swift-ios-scene-transition/</loc>
-        <lastmod>2016-07-26T11:27:10.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://blog.lattecom.xyz/2016/06/28/hexo-blog-github-pages/</loc>
-        <lastmod>2016-07-26T11:27:10.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://blog.lattecom.xyz/2016/07/02/mabinogi-setting/</loc>
-        <lastmod>2016-07-26T11:27:10.000Z</lastmod>
+        <lastmod>2017-03-21T07:19:23.725Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -96,7 +16,87 @@
 
     <url>
         <loc>http://blog.lattecom.xyz/2016/07/08/r-java-setting-in-mac/</loc>
-        <lastmod>2016-07-26T11:27:10.000Z</lastmod>
+        <lastmod>2017-03-21T07:19:23.713Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://blog.lattecom.xyz/2016/07/02/mabinogi-setting/</loc>
+        <lastmod>2017-03-21T07:19:23.679Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://blog.lattecom.xyz/2016/06/28/hexo-blog-github-pages/</loc>
+        <lastmod>2017-03-21T07:19:23.675Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://blog.lattecom.xyz/2016/06/15/reference-link-design/</loc>
+        <lastmod>2017-03-21T07:19:23.670Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://blog.lattecom.xyz/2016/06/06/swift-ios-scene-transition/</loc>
+        <lastmod>2017-03-21T07:19:23.665Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://blog.lattecom.xyz/2016/05/19/processing-symbol-files/</loc>
+        <lastmod>2017-03-21T07:19:23.659Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://blog.lattecom.xyz/2016/05/13/pintos-guide/</loc>
+        <lastmod>2017-03-21T07:19:23.656Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://blog.lattecom.xyz/2016/05/08/tranquilpeak-theme-web-font/</loc>
+        <lastmod>2017-03-21T07:19:23.586Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://blog.lattecom.xyz/2016/02/15/hexo-init/</loc>
+        <lastmod>2017-03-21T07:19:23.580Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://blog.lattecom.xyz/2015/12/20/raspberrypi-review/</loc>
+        <lastmod>2017-03-21T07:19:23.576Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://blog.lattecom.xyz/2015/12/18/express-generator/</loc>
+        <lastmod>2017-03-21T07:19:23.573Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 

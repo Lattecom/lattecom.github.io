@@ -3,231 +3,231 @@
 
     <url>
         <loc>http://blog.lattecom.xyz/tags/express/</loc>
-        <lastmod>2016-07-26T11:27:10.000Z</lastmod>
+        <lastmod>2017-03-21T07:19:23.573Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://blog.lattecom.xyz/tags/node/</loc>
-        <lastmod>2016-07-26T11:27:10.000Z</lastmod>
+        <lastmod>2017-03-21T07:19:23.573Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://blog.lattecom.xyz/tags/nodejs/</loc>
-        <lastmod>2016-07-26T11:27:10.000Z</lastmod>
+        <lastmod>2017-03-21T07:19:23.573Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://blog.lattecom.xyz/tags/raspberrypi/</loc>
-        <lastmod>2016-07-26T11:27:10.000Z</lastmod>
+        <lastmod>2017-03-21T07:19:23.576Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://blog.lattecom.xyz/tags/%EB%9D%BC%EC%A6%88%EB%B2%A0%EB%A6%AC%ED%8C%8C%EC%9D%B4/</loc>
-        <lastmod>2016-07-26T11:27:10.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://blog.lattecom.xyz/tags/hexo/</loc>
-        <lastmod>2016-07-26T11:27:10.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://blog.lattecom.xyz/tags/blog/</loc>
-        <lastmod>2016-07-26T11:27:10.000Z</lastmod>
+        <lastmod>2017-03-21T07:19:23.576Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://blog.lattecom.xyz/tags/static-blog/</loc>
-        <lastmod>2016-07-26T11:27:10.000Z</lastmod>
+        <lastmod>2017-03-21T07:19:23.580Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://blog.lattecom.xyz/tags/%EC%A0%95%EC%A0%81%EB%B8%94%EB%A1%9C%EA%B7%B8/</loc>
-        <lastmod>2016-07-26T11:27:10.000Z</lastmod>
+        <lastmod>2017-03-21T07:19:23.580Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://blog.lattecom.xyz/tags/%EB%B8%94%EB%A1%9C%EA%B7%B8/</loc>
-        <lastmod>2016-07-26T11:27:10.000Z</lastmod>
+        <lastmod>2017-03-21T07:19:23.580Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://blog.lattecom.xyz/tags/theme/</loc>
-        <lastmod>2016-07-26T11:27:10.000Z</lastmod>
+        <lastmod>2017-03-21T07:19:23.586Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://blog.lattecom.xyz/tags/tranquilpeak/</loc>
-        <lastmod>2016-07-26T11:27:10.000Z</lastmod>
+        <lastmod>2017-03-21T07:19:23.586Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://blog.lattecom.xyz/tags/pintos/</loc>
-        <lastmod>2016-07-26T11:27:10.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://blog.lattecom.xyz/tags/swift/</loc>
-        <lastmod>2016-07-26T11:27:10.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://blog.lattecom.xyz/tags/%ED%99%94%EB%A9%B4-%EC%A0%84%ED%99%98/</loc>
-        <lastmod>2016-07-26T11:27:10.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://blog.lattecom.xyz/tags/github/</loc>
-        <lastmod>2016-07-26T11:27:10.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://blog.lattecom.xyz/tags/mabinogi/</loc>
-        <lastmod>2016-07-26T11:27:10.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://blog.lattecom.xyz/tags/%EB%B3%B5%EC%9B%90/</loc>
-        <lastmod>2016-07-26T11:27:10.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://blog.lattecom.xyz/tags/r/</loc>
-        <lastmod>2016-07-26T11:27:10.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://blog.lattecom.xyz/tags/r-studio/</loc>
-        <lastmod>2016-07-26T11:27:10.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://blog.lattecom.xyz/tags/macos/</loc>
-        <lastmod>2016-07-26T11:27:10.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://blog.lattecom.xyz/tags/java-home/</loc>
-        <lastmod>2016-07-26T11:27:10.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://blog.lattecom.xyz/tags/legacy-java/</loc>
-        <lastmod>2016-07-26T11:27:10.000Z</lastmod>
+        <lastmod>2017-03-21T07:19:23.656Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://blog.lattecom.xyz/tags/error/</loc>
-        <lastmod>2016-08-17T01:34:41.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://blog.lattecom.xyz/tags/ios/</loc>
-        <lastmod>2016-08-17T01:34:41.000Z</lastmod>
+        <lastmod>2017-03-21T07:19:23.659Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://blog.lattecom.xyz/tags/xcode/</loc>
-        <lastmod>2016-08-17T01:34:41.000Z</lastmod>
+        <lastmod>2017-03-21T07:19:23.659Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://blog.lattecom.xyz/tags/ios/</loc>
+        <lastmod>2017-03-21T07:19:23.665Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://blog.lattecom.xyz/tags/swift/</loc>
+        <lastmod>2017-03-21T07:19:23.665Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://blog.lattecom.xyz/tags/%ED%99%94%EB%A9%B4-%EC%A0%84%ED%99%98/</loc>
+        <lastmod>2017-03-21T07:19:23.665Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://blog.lattecom.xyz/tags/%EB%94%94%EC%9E%90%EC%9D%B8/</loc>
-        <lastmod>2016-12-04T11:12:48.000Z</lastmod>
+        <lastmod>2017-03-21T07:19:23.670Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://blog.lattecom.xyz/tags/design/</loc>
-        <lastmod>2016-12-04T11:12:48.000Z</lastmod>
+        <lastmod>2017-03-21T07:19:23.670Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://blog.lattecom.xyz/tags/%EC%B0%B8%EA%B3%A0/</loc>
-        <lastmod>2016-12-04T11:12:48.000Z</lastmod>
+        <lastmod>2017-03-21T07:19:23.670Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://blog.lattecom.xyz/tags/hexo/</loc>
+        <lastmod>2017-03-21T07:19:23.675Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://blog.lattecom.xyz/tags/blog/</loc>
+        <lastmod>2017-03-21T07:19:23.675Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://blog.lattecom.xyz/tags/github/</loc>
+        <lastmod>2017-03-21T07:19:23.675Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://blog.lattecom.xyz/tags/mabinogi/</loc>
+        <lastmod>2017-03-21T07:19:23.679Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://blog.lattecom.xyz/tags/%EB%B3%B5%EC%9B%90/</loc>
+        <lastmod>2017-03-21T07:19:23.679Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://blog.lattecom.xyz/tags/r/</loc>
+        <lastmod>2017-03-21T07:19:23.713Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://blog.lattecom.xyz/tags/r-studio/</loc>
+        <lastmod>2017-03-21T07:19:23.713Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://blog.lattecom.xyz/tags/macos/</loc>
+        <lastmod>2017-03-21T07:19:23.713Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://blog.lattecom.xyz/tags/java-home/</loc>
+        <lastmod>2017-03-21T07:19:23.713Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://blog.lattecom.xyz/tags/legacy-java/</loc>
+        <lastmod>2017-03-21T07:19:23.713Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://blog.lattecom.xyz/tags/functional-programming/</loc>
-        <lastmod>2017-03-17T09:27:11.000Z</lastmod>
+        <lastmod>2017-03-21T07:19:23.725Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://blog.lattecom.xyz/tags/scala/</loc>
-        <lastmod>2017-03-17T09:27:11.000Z</lastmod>
+        <lastmod>2017-03-21T07:19:23.725Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://blog.lattecom.xyz/tags/pure-function/</loc>
-        <lastmod>2017-03-17T09:27:11.000Z</lastmod>
+        <lastmod>2017-03-21T07:19:23.725Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://blog.lattecom.xyz/tags/side-effect/</loc>
-        <lastmod>2017-03-17T09:27:11.000Z</lastmod>
+        <lastmod>2017-03-21T07:19:23.725Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>

@@ -21,7 +21,7 @@
 <meta property="og:url" content="http://blog.lattecom.xyz/2016/07/02/mabinogi-setting/index.html">
 <meta property="og:site_name" content="LatteCom's Library">
 <meta property="og:description" content="컴퓨터를 바꾸거나 PC방 등 다른 컴퓨터에서 마비노기를 하게 되면 기존에 설정해뒀던 단축키 셋팅이나 펫, 파트너 순서 등이 초기화 되버립니다. 특히 피씨방 같은 경우엔 자리도 매번 바뀌고 로컬 파일들이 초기화 되기때문에 매번 다시 설정해줘야해서 불편합니다.">
-<meta property="og:updated_time" content="2016-07-26T11:27:10.000Z">
+<meta property="og:updated_time" content="2017-03-21T07:19:23.679Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="마비노기 단축키, 펫 순서 설정 복원하기">
 <meta name="twitter:description" content="컴퓨터를 바꾸거나 PC방 등 다른 컴퓨터에서 마비노기를 하게 되면 기존에 설정해뒀던 단축키 셋팅이나 펫, 파트너 순서 등이 초기화 되버립니다. 특히 피씨방 같은 경우엔 자리도 매번 바뀌고 로컬 파일들이 초기화 되기때문에 매번 다시 설정해줘야해서 불편합니다.">
@@ -29,6 +29,8 @@
     
         
     
+    
+        <meta property="og:image" content="https://www.gravatar.com/avatar/1f3e30c34940c99abcc58b04198fe8b8?s=640"/>
     
     
         <meta property="og:image" content="http://blog.lattecom.xyz/2016/07/02/mabinogi-setting/mabinogi_icon.png"/>
@@ -61,6 +63,8 @@
 
 
     
+        
+    
 
 <header id="header" data-behavior="1">
     <i id="btn-open-sidebar" class="fa fa-lg fa-bars"></i>
@@ -73,6 +77,8 @@
                 href="#about">
         
         
+            <img class="header-picture" src="https://www.gravatar.com/avatar/1f3e30c34940c99abcc58b04198fe8b8?s=90" alt="Author&#39;s picture"/>
+        
         </a>
     
 </header>
@@ -80,8 +86,21 @@
             <!-- Define author's picture -->
 
 
+    
+
 <nav id="sidebar" data-behavior="1">
     <div class="sidebar-container">
+        
+            <div class="sidebar-profile">
+                <a href="/#about">
+                    <img class="sidebar-profile-picture" src="https://www.gravatar.com/avatar/1f3e30c34940c99abcc58b04198fe8b8?s=110" alt="Author&#39;s picture"/>
+                </a>
+                <h4 class="sidebar-profile-name">LatteCom</h4>
+                
+                    <h5 class="sidebar-profile-bio"><p>author.bio</p>
+</h5>
+                
+            </div>
         
         
             <ul class="sidebar-buttons">
@@ -235,7 +254,7 @@
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">|- 설정</div><div class="line">|   |- custom.keyboard  <span class="comment"># 단축키 셋팅 파일</span></div><div class="line">|   |- custom.alarm     <span class="comment"># 알람 셋팅 파일</span></div><div class="line">|- 캐시</div><div class="line">    |- 어쩌구저쩌구.plst</div><div class="line">    |- 어쩌구저쩌구.pnti</div><div class="line">    |- 얼레리꼴레리.bmlt</div></pre></td></tr></table></figure>
 <p>‘설정’폴더의 파일은 ‘custom.keyboard’ 와 ‘custom.alarm’ 으로 모두 동일하여 찾기 쉬우나, ‘캐시’폴더의 파일은 각각 파일명도 다르고 숫자와 영어로 된 복잡한 문자열로 이루어져 있으므로 확장자로 파일을 구분하시면 됩니다.</p>
 <p>위의 파일들을 USB메모리나, 메일, 클라우드 등에 백업 하시고 새로운 컴퓨터의 <code>내 문서/mabinogi/</code> 폴더의 각각 ‘설정’ 폴더와 ‘캐시’ 폴더에 복사하신후 마비노기를 실행하시면 사용하던 단축키와 펫/파트너 순서 등을 그대로 즐기실 수 있습니다.</p>
-<p>p.s. 이 <a href="mabi_setting.zip">첨부파일</a>은 제 설정파일 백업용입니다. 받으셔도 소용없어요! &gt;_&lt;</p>
+<p>p.s. 이 <a href="mabi_setting.zip">첨부파일</a>은 제 설정파일 백업용이므로 받으셔도 소용없습니다.</p>
 
             
         </div>
@@ -417,11 +436,15 @@
         
 
 
+    
+
 <div id="about">
     <div id="about-card">
         <div id="about-btn-close">
             <i class="fa fa-remove"></i>
         </div>
+        
+            <img id="about-card-picture" src="https://www.gravatar.com/avatar/1f3e30c34940c99abcc58b04198fe8b8?s=110" alt="Author&#39;s picture"/>
         
             <h4 id="about-card-name">LatteCom</h4>
         
@@ -440,7 +463,7 @@
             <div id="about-card-location">
                 <i class="fa fa-map-marker"></i>
                 <br/>
-                Ansan
+                South Korea
             </div>
         
     </div>
