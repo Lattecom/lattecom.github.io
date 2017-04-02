@@ -92,14 +92,14 @@
 
     <url>
         <loc>http://blog.lattecom.xyz/categories/dev/</loc>
-        <lastmod>2017-03-21T07:19:23.725Z</lastmod>
+        <lastmod>2017-04-02T06:11:17.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://blog.lattecom.xyz/categories/dev/functional-programming/</loc>
-        <lastmod>2017-03-21T07:19:23.725Z</lastmod>
+        <lastmod>2017-04-02T06:11:17.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
