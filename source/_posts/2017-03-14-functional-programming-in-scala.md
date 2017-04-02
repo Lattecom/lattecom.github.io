@@ -8,6 +8,7 @@ tags:
 - scala
 - pure function
 - side effect
+thumbnailImage: thumbnail.png
 ---
 'Functional Programming in SCALA'의 번역서인 '스칼라로 배우는 함수형 프로그래밍'을 공부하면서 복습을 위해 간단하게 리뷰 포스팅을 진행하려합니다.
 - 제목 : 스칼라로 배우는 함수형 프로그래밍(Functional Programming in SCALA)
