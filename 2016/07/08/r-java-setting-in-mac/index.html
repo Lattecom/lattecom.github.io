@@ -13,7 +13,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="generator" content="LatteCom&#39;s Library">
-    <title>맥에서 R(R Studio) Java 환경변수 설정하기 - LatteCom&#39;s Library</title>
+    <title>맥에서 R(R Studio) Java 환경변수 설정하기 (업데이트) - LatteCom&#39;s Library</title>
     <meta name="author" content="LatteCom">
     
     
@@ -22,34 +22,37 @@
     
         <link rel="alternate" type="application/atom+xml" title="RSS" href="/atom.xml">
     
-    <meta name="description" content="macOS에서 R Studio로 통계 패키지를 사용하려는데 두 가지 문제가 있었습니다.
+    <meta name="description" content="2017-06-20 기준 내용 업데이트
 
-R 시스템 환경변수 설정
-맥에서 java 버전
+OS Version: macOS Sierra (10.12.5)
+R Version: 3.4.0
+R Studio Version: 1.0.143
 
-위의 두 가지였습니다.R에서 ‘rJava’등의 java에 dependency가 있는 패키지를 사용하려면 R의 시스템 환경변수 ‘JAVA_HOME’, ‘Java libarary path’ 두 가지를 정확하게 설정해줘야합니다">
+R Studio 실행 후 콘솔에서12# jdk1.8.0_101.jdk 부분은 설치된 자바 버전에 맞게 디렉토리 수정해서 사용dyn.load(&apos;/Library/Java/JavaV">
 <meta property="og:type" content="blog">
-<meta property="og:title" content="맥에서 R(R Studio) Java 환경변수 설정하기">
+<meta property="og:title" content="맥에서 R(R Studio) Java 환경변수 설정하기 (업데이트)">
 <meta property="og:url" content="http://blog.lattecom.xyz/2016/07/08/r-java-setting-in-mac/index.html">
 <meta property="og:site_name" content="LatteCom's Library">
-<meta property="og:description" content="macOS에서 R Studio로 통계 패키지를 사용하려는데 두 가지 문제가 있었습니다.
+<meta property="og:description" content="2017-06-20 기준 내용 업데이트
 
-R 시스템 환경변수 설정
-맥에서 java 버전
+OS Version: macOS Sierra (10.12.5)
+R Version: 3.4.0
+R Studio Version: 1.0.143
 
-위의 두 가지였습니다.R에서 ‘rJava’등의 java에 dependency가 있는 패키지를 사용하려면 R의 시스템 환경변수 ‘JAVA_HOME’, ‘Java libarary path’ 두 가지를 정확하게 설정해줘야합니다">
+R Studio 실행 후 콘솔에서12# jdk1.8.0_101.jdk 부분은 설치된 자바 버전에 맞게 디렉토리 수정해서 사용dyn.load(&apos;/Library/Java/JavaV">
 <meta property="og:image" content="http://blog.lattecom.xyz/assets/images/r_javaconf.jpg">
 <meta property="og:image" content="http://blog.lattecom.xyz/assets/images/r-javahome-env.png">
 <meta property="og:image" content="http://blog.lattecom.xyz/assets/images/r-javahome-setting.png">
-<meta property="og:updated_time" content="2017-03-21T07:19:23.713Z">
+<meta property="og:updated_time" content="2017-06-20T06:18:50.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="맥에서 R(R Studio) Java 환경변수 설정하기">
-<meta name="twitter:description" content="macOS에서 R Studio로 통계 패키지를 사용하려는데 두 가지 문제가 있었습니다.
+<meta name="twitter:title" content="맥에서 R(R Studio) Java 환경변수 설정하기 (업데이트)">
+<meta name="twitter:description" content="2017-06-20 기준 내용 업데이트
 
-R 시스템 환경변수 설정
-맥에서 java 버전
+OS Version: macOS Sierra (10.12.5)
+R Version: 3.4.0
+R Studio Version: 1.0.143
 
-위의 두 가지였습니다.R에서 ‘rJava’등의 java에 dependency가 있는 패키지를 사용하려면 R의 시스템 환경변수 ‘JAVA_HOME’, ‘Java libarary path’ 두 가지를 정확하게 설정해줘야합니다">
+R Studio 실행 후 콘솔에서12# jdk1.8.0_101.jdk 부분은 설치된 자바 버전에 맞게 디렉토리 수정해서 사용dyn.load(&apos;/Library/Java/JavaV">
 <meta name="twitter:image" content="http://blog.lattecom.xyz/assets/images/r_javaconf.jpg">
     
     
@@ -248,7 +251,7 @@ R 시스템 환경변수 설정
         <div class="post-header main-content-wrap text-left">
     
         <h1 class="post-title" itemprop="headline">
-            맥에서 R(R Studio) Java 환경변수 설정하기
+            맥에서 R(R Studio) Java 환경변수 설정하기 (업데이트)
         </h1>
     
     <div class="post-meta">
@@ -282,13 +285,21 @@ R 시스템 환경변수 설정
 </div>
     <div class="post-content markdown" itemprop="articleBody">
         <div class="main-content-wrap">
-            <p>macOS에서 R Studio로 통계 패키지를 사용하려는데 두 가지 문제가 있었습니다.</p>
+            <p>2017-06-20 기준 내용 업데이트</p>
+<ul>
+<li>OS Version: macOS Sierra (10.12.5)</li>
+<li>R Version: 3.4.0</li>
+<li>R Studio Version: 1.0.143</li>
+</ul>
+<p>R Studio 실행 후 콘솔에서<br><figure class="highlight r"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># jdk1.8.0_101.jdk 부분은 설치된 자바 버전에 맞게 디렉토리 수정해서 사용</span></div><div class="line">dyn.load(<span class="string">'/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/server/libjvm.dylib'</span>)</div></pre></td></tr></table></figure></p>
+<p>위 명령어를 실행하면 정상적으로 ‘rJava’등의 패키지를 로드할 수 있습니다.</p>
+<a id="more"></a>
+<p>macOS에서 R Studio로 통계 패키지를 사용하려는데 두 가지 문제가 있었습니다.</p>
 <ul>
 <li>R 시스템 환경변수 설정</li>
 <li>맥에서 java 버전</li>
 </ul>
 <p>위의 두 가지였습니다.<br>R에서 ‘rJava’등의 java에 dependency가 있는 패키지를 사용하려면 R의 시스템 환경변수 ‘JAVA_HOME’, ‘Java libarary path’ 두 가지를 정확하게 설정해줘야합니다.</p>
-<a id="more"></a>
 <p>터미널에서 <code>sudo R CMD javareconf</code>로 설정을 확인해보면 아래와 같이 맥에 설치된 java 정보와 시스템 변수로 저장된 경로가 표시됩니다.<br><img src="/assets/images/r_javaconf.jpg" alt="R javareconf"></p>
 <p>허나 실제로 R 및 R studio 를 실행해서 <code>Sys.getenv(&#39;JAVA_HOME&#39;)</code> 을 통해 확인을 해보면 아래와 같이 값이 설정되어있지 않습니다.<br><img src="/assets/images/r-javahome-env.png" alt="R env javahome"></p>
 <p>R을 실행해서 <code>Sys.setenv()</code>를 통해서 값을 설정해주어야 합니다. 하지만 위에서 확인한 경로대로  <code>/Library/Java/JavaVirtualMachines/jdk1.8.0_73.jdk/Contents/Home/jre</code>로 값을 변경해줘도 문제가 있습니다.<br>macOS에서 R과 java 버젼 호환문제인데요. 오라클에서 제공하는 최신버젼의 java는 R에서 사용할 수가 없습니다.</p>

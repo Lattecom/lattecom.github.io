@@ -3,22 +3,22 @@
 
     <sitemap>
         <loc>http://blog.lattecom.xyz/post-sitemap.xml</loc>
-        <lastmod>2017-04-02T06:11:17.000Z</lastmod>
+        <lastmod>2017-06-20T06:18:50.000Z</lastmod>
     </sitemap>
 
     <sitemap>
         <loc>http://blog.lattecom.xyz/page-sitemap.xml</loc>
-        <lastmod>2017-03-21T07:19:23.735Z</lastmod>
+        <lastmod>2017-06-20T06:20:06.000Z</lastmod>
     </sitemap>
 
     <sitemap>
         <loc>http://blog.lattecom.xyz/category-sitemap.xml</loc>
-        <lastmod>2017-03-21T07:19:23.573Z</lastmod>
+        <lastmod>2017-03-21T07:19:23.000Z</lastmod>
     </sitemap>
 
     <sitemap>
         <loc>http://blog.lattecom.xyz/tag-sitemap.xml</loc>
-        <lastmod>2017-03-21T07:19:23.573Z</lastmod>
+        <lastmod>2017-03-21T07:19:23.000Z</lastmod>
     </sitemap>
 
 </sitemapindex>

@@ -7,92 +7,78 @@
     </url>
 
     <url>
-        <loc>http://blog.lattecom.xyz/categories/dev/nodejs/</loc>
-        <lastmod>2017-03-21T07:19:23.573Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>http://blog.lattecom.xyz/categories/raspberrypi/</loc>
-        <lastmod>2017-03-21T07:19:23.576Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://blog.lattecom.xyz/categories/dev/pintos/</loc>
-        <lastmod>2017-03-21T07:19:23.656Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://blog.lattecom.xyz/categories/dev/xcode/</loc>
-        <lastmod>2017-03-21T07:19:23.659Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://blog.lattecom.xyz/categories/dev/ios/</loc>
-        <lastmod>2017-03-21T07:19:23.665Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://blog.lattecom.xyz/categories/reference/</loc>
-        <lastmod>2017-03-21T07:19:23.670Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://blog.lattecom.xyz/categories/reference/design/</loc>
-        <lastmod>2017-03-21T07:19:23.670Z</lastmod>
+        <lastmod>2017-03-21T07:19:23.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://blog.lattecom.xyz/categories/blog/</loc>
-        <lastmod>2017-03-21T07:19:23.675Z</lastmod>
+        <lastmod>2017-03-21T07:19:23.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://blog.lattecom.xyz/categories/dev/nodejs/</loc>
+        <lastmod>2017-03-21T07:19:23.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://blog.lattecom.xyz/categories/dev/pintos/</loc>
+        <lastmod>2017-03-21T07:19:23.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://blog.lattecom.xyz/categories/blog/hexo/</loc>
-        <lastmod>2017-03-21T07:19:23.675Z</lastmod>
+        <lastmod>2017-03-21T07:19:23.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://blog.lattecom.xyz/categories/dev/xcode/</loc>
+        <lastmod>2017-03-21T07:19:23.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://blog.lattecom.xyz/categories/dev/ios/</loc>
+        <lastmod>2017-03-21T07:19:23.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://blog.lattecom.xyz/categories/reference/</loc>
+        <lastmod>2017-03-21T07:19:23.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://blog.lattecom.xyz/categories/game/</loc>
-        <lastmod>2017-03-21T07:19:23.679Z</lastmod>
+        <lastmod>2017-03-21T07:19:23.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://blog.lattecom.xyz/categories/reference/design/</loc>
+        <lastmod>2017-03-21T07:19:23.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://blog.lattecom.xyz/categories/game/mabinogi/</loc>
-        <lastmod>2017-03-21T07:19:23.679Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://blog.lattecom.xyz/categories/dev/r/</loc>
-        <lastmod>2017-03-21T07:19:23.713Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://blog.lattecom.xyz/categories/dev/</loc>
-        <lastmod>2017-04-02T06:11:17.000Z</lastmod>
+        <lastmod>2017-03-21T07:19:23.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
@@ -100,6 +86,20 @@
     <url>
         <loc>http://blog.lattecom.xyz/categories/dev/functional-programming/</loc>
         <lastmod>2017-04-02T06:11:17.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://blog.lattecom.xyz/categories/dev/</loc>
+        <lastmod>2017-06-20T06:18:50.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://blog.lattecom.xyz/categories/dev/r/</loc>
+        <lastmod>2017-06-20T06:18:50.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>

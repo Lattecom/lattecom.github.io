@@ -13,7 +13,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="generator" content="LatteCom&#39;s Library">
-    <title>마비노기 단축키, 펫 순서 설정 복원하기 - LatteCom&#39;s Library</title>
+    <title>Category: Dev,Data Structure - LatteCom&#39;s Library</title>
     <meta name="author" content="LatteCom">
     
     
@@ -22,16 +22,20 @@
     
         <link rel="alternate" type="application/atom+xml" title="RSS" href="/atom.xml">
     
-    <meta name="description" content="컴퓨터를 바꾸거나 PC방 등 다른 컴퓨터에서 마비노기를 하게 되면 기존에 설정해뒀던 단축키 셋팅이나 펫, 파트너 순서 등이 초기화 되버립니다. 특히 피씨방 같은 경우엔 자리도 매번 바뀌고 로컬 파일들이 초기화 되기때문에 매번 다시 설정해줘야해서 불편합니다.">
+    <meta name="description" content="자료구조는 전산처리에서 데이터를 효과적으로 다룰 수 있도록 어떠한 기준에 맞춰 정리된 데이터의 형태를 말합니다. 형태에 따라 List, Stack, Tree 등 다양한 종류가 있으며, 구현 방법에 따라서 같은 형태에서도 Circular List, Binary Tree 등으로 세분화 됩니다.
+이번 포스트에서는 자료구조 중 가장 기본적인 형태인 List를, 그">
+<meta name="keywords">
 <meta property="og:type" content="blog">
-<meta property="og:title" content="마비노기 단축키, 펫 순서 설정 복원하기">
-<meta property="og:url" content="http://blog.lattecom.xyz/2016/07/02/mabinogi-setting/index.html">
+<meta property="og:title" content="[자료구조] Linked List">
+<meta property="og:url" content="http://blog.lattecom.xyz/draft/2017-05-02-data-structure-linked-list.html">
 <meta property="og:site_name" content="LatteCom's Library">
-<meta property="og:description" content="컴퓨터를 바꾸거나 PC방 등 다른 컴퓨터에서 마비노기를 하게 되면 기존에 설정해뒀던 단축키 셋팅이나 펫, 파트너 순서 등이 초기화 되버립니다. 특히 피씨방 같은 경우엔 자리도 매번 바뀌고 로컬 파일들이 초기화 되기때문에 매번 다시 설정해줘야해서 불편합니다.">
-<meta property="og:updated_time" content="2017-03-21T07:19:23.000Z">
+<meta property="og:description" content="자료구조는 전산처리에서 데이터를 효과적으로 다룰 수 있도록 어떠한 기준에 맞춰 정리된 데이터의 형태를 말합니다. 형태에 따라 List, Stack, Tree 등 다양한 종류가 있으며, 구현 방법에 따라서 같은 형태에서도 Circular List, Binary Tree 등으로 세분화 됩니다.
+이번 포스트에서는 자료구조 중 가장 기본적인 형태인 List를, 그">
+<meta property="og:updated_time" content="2017-06-20T06:20:06.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="마비노기 단축키, 펫 순서 설정 복원하기">
-<meta name="twitter:description" content="컴퓨터를 바꾸거나 PC방 등 다른 컴퓨터에서 마비노기를 하게 되면 기존에 설정해뒀던 단축키 셋팅이나 펫, 파트너 순서 등이 초기화 되버립니다. 특히 피씨방 같은 경우엔 자리도 매번 바뀌고 로컬 파일들이 초기화 되기때문에 매번 다시 설정해줘야해서 불편합니다.">
+<meta name="twitter:title" content="[자료구조] Linked List">
+<meta name="twitter:description" content="자료구조는 전산처리에서 데이터를 효과적으로 다룰 수 있도록 어떠한 기준에 맞춰 정리된 데이터의 형태를 말합니다. 형태에 따라 List, Stack, Tree 등 다양한 종류가 있으며, 구현 방법에 따라서 같은 형태에서도 Circular List, Binary Tree 등으로 세분화 됩니다.
+이번 포스트에서는 자료구조 중 가장 기본적인 형태인 List를, 그">
     
     
         
@@ -39,9 +43,6 @@
     
         <meta property="og:image" content="https://www.gravatar.com/avatar/1f3e30c34940c99abcc58b04198fe8b8?s=640"/>
     
-    
-        <meta property="og:image" content="http://blog.lattecom.xyz/2016/07/02/mabinogi-setting/mabinogi_icon.png"/>
-        <meta class="swiftype" name="image" data-type="enum" content="http://blog.lattecom.xyz/2016/07/02/mabinogi-setting/mabinogi_icon.png" />
     
     
     
@@ -229,21 +230,15 @@
         <div class="post-header main-content-wrap text-left">
     
         <h1 class="post-title" itemprop="headline">
-            마비노기 단축키, 펫 순서 설정 복원하기
+            [자료구조] Linked List
         </h1>
     
     <div class="post-meta">
-    <time itemprop="datePublished" datetime="2016-07-02T18:49:54+09:00">
+    <time itemprop="datePublished" datetime="2017-05-02T10:40:57+09:00">
 	
-		    Jul 02, 2016
+		    May 02, 2017
     	
     </time>
-    
-        <span>in </span>
-        
-    <a class="category-link" href="/categories/game/">Game</a>, <a class="category-link" href="/categories/game/mabinogi/">Mabinogi</a>
-
-
     
 </div>
 
@@ -263,16 +258,39 @@
 </div>
     <div class="post-content markdown" itemprop="articleBody">
         <div class="main-content-wrap">
-            <p>컴퓨터를 바꾸거나 PC방 등 다른 컴퓨터에서 마비노기를 하게 되면 기존에 설정해뒀던 단축키 셋팅이나 펫, 파트너 순서 등이 초기화 되버립니다. 특히 피씨방 같은 경우엔 자리도 매번 바뀌고 로컬 파일들이 초기화 되기때문에 매번 다시 설정해줘야해서 불편합니다.</p>
+            <p>자료구조는 전산처리에서 데이터를 효과적으로 다룰 수 있도록 어떠한 기준에 맞춰 정리된 데이터의 형태를 말합니다. 형태에 따라 <strong>List</strong>, <strong>Stack</strong>, <strong>Tree</strong> 등 다양한 종류가 있으며, 구현 방법에 따라서 같은 형태에서도 <strong>Circular List</strong>, <strong>Binary Tree</strong> 등으로 세분화 됩니다.</p>
+<p>이번 포스트에서는 자료구조 중 가장 기본적인 형태인 <strong>List</strong>를, 그 중에서도 <strong>Linked List</strong>에 대해서 다뤄보겠습니다.</p>
 <a id="more"></a>
-<p>이번 포스트에선 마비노기 설정파일들을 알아보고 해당 파일을 따로 백업하여 다른 컴퓨터에서 간단하게 복구하는 방법에 대해 알아보겠습니다.</p>
-<p>마비노기 설정파일은 내 문서에 mabinogi폴더에 저장되어있습니다. mabinogi폴더엔 아래와 같이 서브 폴더들이 들어있습니다.</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">- 그림대화</div><div class="line">- 내 파일</div><div class="line">- 동물캐릭터 AI</div><div class="line">- 동영상</div><div class="line">- 설정</div><div class="line">- 스크린샷</div><div class="line">- 오류보고</div><div class="line">- 캐시</div></pre></td></tr></table></figure>
-<p>우리가 여기서 필요한 건 ‘설정’ 폴더와 ‘캐시’ 폴더 입니다. ‘설정’ 폴더에는 별도로 저장한 단축키 셋팅 파일이 저장되어있고, ‘캐시’ 폴더에는 펫 순서 저장해둔 파일이 저장되어있습니다. 각 폴더에 들어가면 여러가지 파일들이 많은데 아래 표시된 파일들만 백업하시면 됩니다.</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">|- 설정</div><div class="line">|   |- custom.keyboard  <span class="comment"># 단축키 셋팅 파일</span></div><div class="line">|   |- custom.alarm     <span class="comment"># 알람 셋팅 파일</span></div><div class="line">|- 캐시</div><div class="line">    |- 어쩌구저쩌구.plst</div><div class="line">    |- 어쩌구저쩌구.pnti</div><div class="line">    |- 얼레리꼴레리.bmlt</div></pre></td></tr></table></figure>
-<p>‘설정’폴더의 파일은 ‘custom.keyboard’ 와 ‘custom.alarm’ 으로 모두 동일하여 찾기 쉬우나, ‘캐시’폴더의 파일은 각각 파일명도 다르고 숫자와 영어로 된 복잡한 문자열로 이루어져 있으므로 확장자로 파일을 구분하시면 됩니다.</p>
-<p>위의 파일들을 USB메모리나, 메일, 클라우드 등에 백업 하시고 새로운 컴퓨터의 <code>내 문서/mabinogi/</code> 폴더의 각각 ‘설정’ 폴더와 ‘캐시’ 폴더에 복사하신후 마비노기를 실행하시면 사용하던 단축키와 펫/파트너 순서 등을 그대로 즐기실 수 있습니다.</p>
-<p>p.s. 이 <a href="mabi_setting.zip">첨부파일</a>은 제 설정파일 백업용이므로 받으셔도 소용없습니다.</p>
+<p>C, Java 등 프로그래밍 언어를 처음 배우면서 일반적으로 가장 먼저 접하는 자료구조는 배열입니다. 배열은 정해진 공간에 차례대로 값을 저장하게 되고, 인덱스(Index)로 저장된 값에 접근할 수 있습니다. 아래 테이블과 같이 저장된 배열 A에서 4번째 값 1을 접근하려면 <code>A[3]</code>처럼 접근합니다.(인덱스 0번부터 시작하므로)</p>
+<p><strong>[Table 1. 배열 A의 인덱스와 저장된 값]</strong></p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">index</th>
+<th style="text-align:center">0</th>
+<th style="text-align:center">1</th>
+<th style="text-align:center">2</th>
+<th style="text-align:center">3</th>
+<th style="text-align:center">4</th>
+<th style="text-align:center">5</th>
+<th style="text-align:center">6</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">value</td>
+<td style="text-align:center">3</td>
+<td style="text-align:center">1</td>
+<td style="text-align:center">4</td>
+<td style="text-align:center">1</td>
+<td style="text-align:center">5</td>
+<td style="text-align:center">9</td>
+<td style="text-align:center">2</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>배열의 가장 큰 특징으론 값에 인덱스로 접근한다는 것과, 크기가 정해져있다는 것 입니다.(언어 별로 크기가 변하는 경우도 있습니다.)</p>
 
             
         </div>
@@ -282,7 +300,7 @@
             <div class="post-footer-tags">
                 <span class="text-color-light text-small">TAGGED IN</span><br/>
                 
-    <a class="tag tag--primary tag--small t-link" href="/tags/mabinogi/">mabinogi</a> <a class="tag tag--primary tag--small t-link" href="/tags/복원/">복원</a>
+    <a class="tag tag--primary tag--small t-link" href="/">undefined</a> <a class="tag tag--primary tag--small t-link" href="/">undefined</a> <a class="tag tag--primary tag--small t-link" href="/">undefined</a> <a class="tag tag--primary tag--small t-link" href="/">undefined</a>
 
             </div>
         
@@ -291,7 +309,7 @@
         <ul class="post-actions post-action-nav">
             <li class="post-action">
                 
-                    <a class="post-action-btn btn btn--default tooltip--top" href="/2016/07/08/r-java-setting-in-mac/"  data-tooltip="맥에서 R(R Studio) Java 환경변수 설정하기 (업데이트)">
+                    <a class="post-action-btn btn btn--disabled">
                 
                     <i class="fa fa-angle-left"></i>
                     <span class="hide-xs hide-sm text-small icon-ml">PREVIOUS</span>
@@ -299,7 +317,7 @@
             </li>
             <li class="post-action">
                 
-                    <a class="post-action-btn btn btn--default tooltip--top" href="/2016/06/28/hexo-blog-github-pages/" data-tooltip="Github pages와 Hexo를 이용하여 블로그 만들기">
+                    <a class="post-action-btn btn btn--disabled">
                 
                     <span class="hide-xs hide-sm text-small icon-mr">NEXT</span>
                     <i class="fa fa-angle-right"></i>
@@ -314,17 +332,17 @@
             </a>
         </li>
         <li class="post-action hide-xs">
-            <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=http://blog.lattecom.xyz/2016/07/02/mabinogi-setting/">
+            <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=http://blog.lattecom.xyz/draft/2017-05-02-data-structure-linked-list.html">
                 <i class="fa fa-google-plus"></i>
             </a>
         </li>
         <li class="post-action hide-xs">
-            <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=http://blog.lattecom.xyz/2016/07/02/mabinogi-setting/">
+            <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=http://blog.lattecom.xyz/draft/2017-05-02-data-structure-linked-list.html">
                 <i class="fa fa-facebook-official"></i>
             </a>
         </li>
         <li class="post-action hide-xs">
-            <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=http://blog.lattecom.xyz/2016/07/02/mabinogi-setting/">
+            <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=http://blog.lattecom.xyz/draft/2017-05-02-data-structure-linked-list.html">
                 <i class="fa fa-twitter"></i>
             </a>
         </li>
@@ -365,90 +383,6 @@
 </footer>
 
             </div>
-            
-                <div id="bottom-bar" class="post-bottom-bar" data-behavior="1">
-                    <div class="post-actions-wrap">
-    <nav>
-        <ul class="post-actions post-action-nav">
-            <li class="post-action">
-                
-                    <a class="post-action-btn btn btn--default tooltip--top" href="/2016/07/08/r-java-setting-in-mac/"  data-tooltip="맥에서 R(R Studio) Java 환경변수 설정하기 (업데이트)">
-                
-                    <i class="fa fa-angle-left"></i>
-                    <span class="hide-xs hide-sm text-small icon-ml">PREVIOUS</span>
-                </a>
-            </li>
-            <li class="post-action">
-                
-                    <a class="post-action-btn btn btn--default tooltip--top" href="/2016/06/28/hexo-blog-github-pages/" data-tooltip="Github pages와 Hexo를 이용하여 블로그 만들기">
-                
-                    <span class="hide-xs hide-sm text-small icon-mr">NEXT</span>
-                    <i class="fa fa-angle-right"></i>
-                </a>
-            </li>
-        </ul>
-    </nav>
-    <ul class="post-actions post-action-share">
-        <li class="post-action hide-lg hide-md hide-sm">
-            <a class="post-action-btn btn btn--default btn-open-shareoptions"  href="#btn-open-shareoptions">
-                <i class="fa fa-share-alt"></i>
-            </a>
-        </li>
-        <li class="post-action hide-xs">
-            <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=http://blog.lattecom.xyz/2016/07/02/mabinogi-setting/">
-                <i class="fa fa-google-plus"></i>
-            </a>
-        </li>
-        <li class="post-action hide-xs">
-            <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=http://blog.lattecom.xyz/2016/07/02/mabinogi-setting/">
-                <i class="fa fa-facebook-official"></i>
-            </a>
-        </li>
-        <li class="post-action hide-xs">
-            <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=http://blog.lattecom.xyz/2016/07/02/mabinogi-setting/">
-                <i class="fa fa-twitter"></i>
-            </a>
-        </li>
-        
-            <li class="post-action">
-                <a class="post-action-btn btn btn--default" href="#disqus_thread">
-                    <i class="fa fa-comment-o"></i>
-                </a>
-            </li>
-        
-        <li class="post-action">
-            
-                <a class="post-action-btn btn btn--default" href="#">
-            
-                <i class="fa fa-list"></i>
-            </a>
-        </li>
-    </ul>
-</div>
-
-
-                </div>
-                <div id="share-options-bar" class="share-options-bar" data-behavior="1">
-    <ul class="share-options">
-        <li class="share-option">
-            <a class="share-option-btn" target="new" href="https://plus.google.com/share?url=http://blog.lattecom.xyz/2016/07/02/mabinogi-setting/">
-                <i class="fa fa-google-plus"></i><span>Share on Google Plus</span>
-            </a>
-        </li>
-        <li class="share-option">
-            <a class="share-option-btn" target="new" href="https://www.facebook.com/sharer/sharer.php?u=http://blog.lattecom.xyz/2016/07/02/mabinogi-setting/">
-                <i class="fa fa-facebook-official"></i><span>Share on Facebook</span>
-            </a>
-        </li>
-        <li class="share-option">
-            <a class="share-option-btn" target="new" href="https://twitter.com/intent/tweet?text=http://blog.lattecom.xyz/2016/07/02/mabinogi-setting/">
-                <i class="fa fa-twitter"></i><span>Share on Twitter</span>
-            </a>
-        </li>
-    </ul>
-</div>
-<div id="share-options-mask" class="share-options-mask"></div>
-
             
         </div>
         
@@ -674,9 +608,9 @@
     
         <script>
              var disqus_config = function () {
-                 this.page.url = 'http://blog.lattecom.xyz/2016/07/02/mabinogi-setting/';
+                 this.page.url = 'http://blog.lattecom.xyz/draft/2017-05-02-data-structure-linked-list.html';
                  
-                    this.page.identifier = '2016/07/02/mabinogi-setting/';
+                    this.page.identifier = 'draft/2017-05-02-data-structure-linked-list.html';
                  
              };
             (function() {
