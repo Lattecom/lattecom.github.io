@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>remove dash new line</title>
+	<style type="text/css">
+		.textbox {
+			width: 400px;
+			height: 200px;
+		}
+	</style>
+</head>
+<body>
+	<div>
+		<textarea class="textbox" id="input" data-clipboard-target="#output">
+		</textarea>
+		<textarea class="textbox" id="output">
+
+		</textarea>
+		<button id="btn" data-clipboard-target="#output">remove and copy</button>
+
+	</div>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.7.1/clipboard.min.js"></script>
+	<script type="text/javascript">
+
+	var btn = document.getElementById("btn")
+	new Clipboard("#btn")
+
+	var inputBox = document.getElementById("input");
+	inputBox.onkeydown = function pressEnter(event) {
+		if(event.keyCode == 13){
+			removeNewLine();
+			// var outputBox = document.getElementById("output");
+			// outputBox.select();
+		}
+	}
+
+
+
+	btn.onclick = removeNewLine;
+	function removeNewLine() {
+		var space = /\s\s+|\n/g;
+		var dashNewLine = /-\s|-\n/g;
+		var inputBox = document.getElementById("input");
+		var outputBox = document.getElementById("output");
+		outputBox.innerHTML = inputBox.value.replace(dashNewLine, "").replace(space, " ");
+
+	}
+
+	</script>
+</body>
+</html>
