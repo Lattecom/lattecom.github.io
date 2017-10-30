@@ -11,8 +11,7 @@
 </head>
 <body>
 	<div>
-		<textarea class="textbox" id="input" data-clipboard-target="#output">
-		</textarea>
+		<textarea class="textbox" id="input" data-clipboard-target="#output"></textarea>
 		<textarea class="textbox" id="output">
 
 		</textarea>
@@ -40,9 +39,10 @@
 	function removeNewLine() {
 		var space = /\s\s+|\n/g;
 		var dashNewLine = /-\s|-\n/g;
+		var etAl = /al\./g;
 		var inputBox = document.getElementById("input");
 		var outputBox = document.getElementById("output");
-		outputBox.innerHTML = inputBox.value.replace(dashNewLine, "").replace(space, " ");
+		outputBox.innerHTML = inputBox.value.replace(dashNewLine, "").replace(space, " ").replace(etAl, "al");
 
 	}
 
